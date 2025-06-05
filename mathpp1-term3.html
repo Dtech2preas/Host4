@@ -202,7 +202,7 @@
     };
 
     async function loadQuestions() {
-      const response = await fetch('quizzes/mathpp1term3.json');
+      const response = await fetch('quizzes/math3.json');
       const allQuestions = await response.json();
       questions = shuffleArray(allQuestions).slice(0, questionLimit);
       showQuestion();
