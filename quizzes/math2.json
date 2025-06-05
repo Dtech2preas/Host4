@@ -1,0 +1,848 @@
+[
+  {
+    "question": "Identify the coefficient and exponent in the term  −7x³.",
+    "correct_answer": "Coefficient: −7, Exponent: 3",
+    "incorrect_answers": [
+      "Coefficient: 7, Exponent: 3",
+      "Coefficient: −7, Exponent: 1",
+      "Coefficient: 3, Exponent: −7",
+      "Coefficient: −3, Exponent: 7",
+      "Coefficient: 7, Exponent: −3"
+    ]
+  },
+  {
+    "question": "Which of the following is a binomial?",
+    "correct_answer": "3x + 5",
+    "incorrect_answers": [
+      "x³",
+      "4x² + 7x + 1",
+      "5",
+      "2xy + 3yz + 4zx",
+      "6x³y²"
+    ]
+  },
+  {
+    "question": "Classify the expression 2a − 5b + 3c as monomial, binomial, or trinomial.",
+    "correct_answer": "Trinomial",
+    "incorrect_answers": [
+      "Monomial",
+      "Binomial",
+      "Polynomial of degree 4",
+      "Quadrinomial",
+      "Not an algebraic expression"
+    ]
+  },
+  {
+    "question": "Which of the following terms are like terms?",
+    "correct_answer": "4x² and −7x²",
+    "incorrect_answers": [
+      "4x² and 4x",
+      "3xy and 3x²y",
+      "5a and −5b",
+      "2x³ and 2³x",
+      "x and 1"
+    ]
+  },
+  {
+    "question": "Combine like terms: 5m + 3m − 8m.",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "10m",
+      "−10m",
+      "8m",
+      "−5m",
+      "5m"
+    ]
+  },
+  {
+    "question": "Simplify: 7x + (−2x) + 4x.",
+    "correct_answer": "9x",
+    "incorrect_answers": [
+      "−1x",
+      "3x",
+      "13x",
+      "7x²",
+      "0"
+    ]
+  },
+  {
+    "question": "Subtract: (4y² − 3y + 2) − (y² + 5y − 1).",
+    "correct_answer": "3y² − 8y + 3",
+    "incorrect_answers": [
+      "3y² + 2y + 1",
+      "5y² − 8y + 1",
+      "4y² − 8y + 3",
+      "−y² − 2y + 3",
+      "3y² − 2y + 1"
+    ]
+  },
+  {
+    "question": "Multiply: (−3x) × (4x²).",
+    "correct_answer": "−12x³",
+    "incorrect_answers": [
+      "−12x",
+      "12x³",
+      "−7x³",
+      "−12x⁴",
+      "12x"
+    ]
+  },
+  {
+    "question": "Divide: 15a³b by 3ab.",
+    "correct_answer": "5a²",
+    "incorrect_answers": [
+      "5ab²",
+      "5a",
+      "45a²b²",
+      "5a³",
+      "5b"
+    ]
+  },
+  {
+    "question": "Simplify: (2x)(3x + 4).",
+    "correct_answer": "6x² + 8x",
+    "incorrect_answers": [
+      "5x + 4",
+      "6x + 8",
+      "6x² + 4",
+      "6x² + 4x",
+      "5x² + 8x"
+    ]
+  },
+  {
+    "question": "Simplify: x(−5x + 2) + 3x².",
+    "correct_answer": "−2x² + 2x",
+    "incorrect_answers": [
+      "−8x² + 2x",
+      "−5x² + 2x + 3x²",
+      "−5x² + 5x",
+      "−2x² + 5x",
+      "−2x³ + 2x"
+    ]
+  },
+  {
+    "question": "Simplify: 4(x + 3) − 2(x − 1).",
+    "correct_answer": "2x + 14",
+    "incorrect_answers": [
+      "2x + 10",
+      "6x + 10",
+      "2x + 4",
+      "4x + 2",
+      "6x + 14"
+    ]
+  },
+  {
+    "question": "Expand and simplify: (x + 2)(x + 3).",
+    "correct_answer": "x² + 5x + 6",
+    "incorrect_answers": [
+      "x² + 6x + 5",
+      "x² + 5x + 5",
+      "x² + 2x + 3",
+      "x² + 6x + 6",
+      "x³ + 5x + 6"
+    ]
+  },
+  {
+    "question": "Find the product: (2x − 3)(x + 4).",
+    "correct_answer": "2x² + 5x − 12",
+    "incorrect_answers": [
+      "2x² + 8x − 3",
+      "2x² + x − 12",
+      "2x² − 5x + 12",
+      "2x³ + 5x − 12",
+      "2x² + 5x + 12"
+    ]
+  },
+  {
+    "question": "Calculate: (x − 5)².",
+    "correct_answer": "x² − 10x + 25",
+    "incorrect_answers": [
+      "x² − 5x + 25",
+      "x² + 10x + 25",
+      "x² − 25",
+      "x² + 5x + 25",
+      "x² − 10x − 25"
+    ]
+  },
+  {
+    "question": "Divide: (6x² − 9x) ÷ 3x.",
+    "correct_answer": "2x − 3",
+    "incorrect_answers": [
+      "2x + 3",
+      "6x − 9",
+      "3x − 3",
+      "2x² − 3x",
+      "2 − 3x"
+    ]
+  },
+  {
+    "question": "Divide: (8x³ + 4x²) ÷ 4x².",
+    "correct_answer": "2x + 1",
+    "incorrect_answers": [
+      "8x + 4",
+      "2x² + 1",
+      "2x³ + x",
+      "4x + 1",
+      "8x + 1"
+    ]
+  },
+  {
+    "question": "Multiply: (3x²)(2x³ − x + 4).",
+    "correct_answer": "6x⁵ − 3x³ + 12x²",
+    "incorrect_answers": [
+      "6x⁵ − x³ + 4x²",
+      "5x⁵ − 3x³ + 12x²",
+      "6x⁶ − 3x⁴ + 12x³",
+      "6x⁵ − 3x² + 12x",
+      "6x⁴ − 3x³ + 12x²"
+    ]
+  },
+  {
+    "question": "Simplify: x² · (−2x² + 3x − 1).",
+    "correct_answer": "−2x⁴ + 3x³ − x²",
+    "incorrect_answers": [
+      "−2x³ + 3x² − x",
+      "−2x⁴ + 3x² − x",
+      "−2x⁴ + 3x³ + x²",
+      "2x⁴ − 3x³ + x²",
+      "−2x⁴ + 3x³ − 1"
+    ]
+  },
+  {
+    "question": "Simplify: 5(0.5x + 0.2) − 2x.",
+    "correct_answer": "0.5x + 1",
+    "incorrect_answers": [
+      "3.5x + 1",
+      "2.5x + 1",
+      "0.5x − 1",
+      "2.5x − 1",
+      "3x + 1"
+    ]
+  },
+  {
+    "question": "Expand: (2.5x − 1)(4).",
+    "correct_answer": "10x − 4",
+    "incorrect_answers": [
+      "8x − 4",
+      "10x + 4",
+      "2.5x − 4",
+      "10x − 1",
+      "8x + 4"
+    ]
+  },
+  {
+    "question": "Simplify: (3/4)x + (1/2)x − (1/4)x.",
+    "correct_answer": "x",
+    "incorrect_answers": [
+      "1/2x",
+      "3/4x",
+      "1/4x",
+      "2x",
+      "−x"
+    ]
+  },
+  {
+    "question": "Simplify: (1/3)x² − (2/3)x² + (1/3)x².",
+    "correct_answer": "0",
+    "incorrect_answers": [
+      "x²",
+      "(−2/3)x²",
+      "(1/3)x²",
+      "(2/3)x²",
+      "(−1/3)x²"
+    ]
+  },
+  {
+    "question": "Multiply: (1/2)x(2x − 4).",
+    "correct_answer": "x² − 2x",
+    "incorrect_answers": [
+      "x² − 4x",
+      "x − 2",
+      "x² − 2",
+      "x² − x",
+      "2x² − 4x"
+    ]
+  },
+  {
+    "question": "Divide: (3/2)x² ÷ (1/2)x.",
+    "correct_answer": "3x",
+    "incorrect_answers": [
+      "x",
+      "2x",
+      "(3/2)x",
+      "3x²",
+      "(1/2)x"
+    ]
+  },
+  {
+    "question": "Multiply: (−2x)(1.5x − 2).",
+    "correct_answer": "−3x² + 4x",
+    "incorrect_answers": [
+      "−3x² − 4x",
+      "3x² + 4x",
+      "−2x² + 4x",
+      "−3x² + 2x",
+      "−3x² − 2x"
+    ]
+  },
+  {
+    "question": "Simplify: 0.2x(5x + 10) ÷ 0.5.",
+    "correct_answer": "2x² + 4x",
+    "incorrect_answers": [
+      "x² + 2x",
+      "2x² + x",
+      "x² + 4x",
+      "4x² + 8x",
+      "x² + 5x"
+    ]
+  },
+  {
+    "question": "Find the square root of x²y⁴.",
+    "correct_answer": "xy²",
+    "incorrect_answers": [
+      "x²y²",
+      "x²y⁴",
+      "y²",
+      "xy",
+      "x²y"
+    ]
+  },
+  {
+    "question": "Find the cube of 2ab².",
+    "correct_answer": "8a³b⁶",
+    "incorrect_answers": [
+      "6a³b⁴",
+      "4a²b³",
+      "8a²b⁴",
+      "8a³b³",
+      "8ab⁴"
+    ]
+  },
+  {
+    "question": "Simplify: (3x³)^(2).",
+    "correct_answer": "9x⁶",
+    "incorrect_answers": [
+      "6x⁵",
+      "3x⁵",
+      "9x⁵",
+      "9x⁴",
+      "3x⁶"
+    ]
+  },
+  {
+    "question": "Simplify: (−2xy)³.",
+    "correct_answer": "−8x³y³",
+    "incorrect_answers": [
+      "8x³y³",
+      "−8x²y²",
+      "−6x³y³",
+      "8x²y²",
+      "−8xy"
+    ]
+  },
+  {
+    "question": "Evaluate when a = 2 and b = −3: 3a² − 2ab + b².",
+    "correct_answer": "17",
+    "incorrect_answers": [
+      "7",
+      "23",
+      "11",
+      "19",
+      "13"
+    ]
+  },
+  {
+    "question": "Evaluate: 4x − 5y if x = 1/2 and y = 2.",
+    "correct_answer": "−6",
+    "incorrect_answers": [
+      "6",
+      "−3",
+      "3",
+      "−4",
+      "4"
+    ]
+  },
+  {
+    "question": "Determine the value of: (x + 1)(x − 2) when x = 3.",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "2",
+      "5",
+      "7",
+      "6",
+      "9"
+    ]
+  },
+  {
+    "question": "Factorise: 6x + 9.",
+    "correct_answer": "3(2x + 3)",
+    "incorrect_answers": [
+      "6(x + 1.5)",
+      "9(2x + 1)",
+      "3(2x − 3)",
+      "6( x + 1.5 )",
+      "3(2x + 2)"
+    ]
+  },
+  {
+    "question": "Factorise: x² − 9.",
+    "correct_answer": "(x − 3)(x + 3)",
+    "incorrect_answers": [
+      "(x − 9)(x + 1)",
+      "(x − 1)(x + 9)",
+      "(x − 3)²",
+      "(x + 3)²",
+      "(x − 9)(x + 3)"
+    ]
+  },
+  {
+    "question": "Factorise: x² + 5x + 6.",
+    "correct_answer": "(x + 2)(x + 3)",
+    "incorrect_answers": [
+      "(x + 1)(x + 6)",
+      "(x + 3)(x + 4)",
+      "(x + 2)²",
+      "(x + 6)(x + 5)",
+      "(x − 2)(x − 3)"
+    ]
+  },
+  {
+    "question": "Factorise completely: 2x² + 6x.",
+    "correct_answer": "2x(x + 3)",
+    "incorrect_answers": [
+      "2(x² + 3x)",
+      "x(2x + 6)",
+      "x(x + 3)",
+      "2(x² + 6x)",
+      "6x( x + 2 )"
+    ]
+  },
+  {
+    "question": "Factorise: 3x² − 12.",
+    "correct_answer": "3(x − 2)(x + 2)",
+    "incorrect_answers": [
+      "3(x − 4)(x + 1)",
+      "3x(x − 4)",
+      "x(3x − 12)",
+      "3(x − 3)(x + 4)",
+      "3(x + 2)(x + 2)"
+    ]
+  },
+  {
+    "question": "Factorise: x² − x − 12.",
+    "correct_answer": "(x − 4)(x + 3)",
+    "incorrect_answers": [
+      "(x + 4)(x − 3)",
+      "(x − 6)(x + 2)",
+      "(x + 6)(x − 2)",
+      "(x − 2)(x + 6)",
+      "(x + 3)(x + 4)"
+    ]
+  },
+  {
+    "question": "Factorise: 4x² − 25y².",
+    "correct_answer": "(2x − 5y)(2x + 5y)",
+    "incorrect_answers": [
+      "(4x − 5y)(x + 5y)",
+      "(2x − 25y)(2x + y)",
+      "(2x − 5)(2x + 5)y²",
+      "(4x − 25y)(x + y)",
+      "(2x − y)(2x + 25y)"
+    ]
+  },
+  {
+    "question": "Factorise: 6x² + 13x + 6.",
+    "correct_answer": "(2x + 3)(3x + 2)",
+    "incorrect_answers": [
+      "(2x + 1)(3x + 6)",
+      "(6x + 3)(x + 2)",
+      "(3x + 1)(2x + 6)",
+      "(2x + 2)(3x + 3)",
+      "(6x + 2)(x + 3)"
+    ]
+  },
+  {
+    "question": "Factorise: 3x² − x − 4.",
+    "correct_answer": "(3x + 2)(x − 2)",
+    "incorrect_answers": [
+      "(3x − 2)(x + 2)",
+      "(x + 4)(3x − 1)",
+      "(3x + 4)(x − 1)",
+      "(3x − 4)(x + 1)",
+      "(x + 2)(3x − 2)"
+    ]
+  },
+  {
+    "question": "Factorise: 2x³ − 6x² + 4x.",
+    "correct_answer": "2x(x² − 3x + 2) = 2x(x − 1)(x − 2)",
+    "incorrect_answers": [
+      "2x(x² + 3x + 2)",
+      "2(x³ − 3x² + 4x)",
+      "x(2x² − 6x + 4)",
+      "2x(x² − x + 2)",
+      "2x(x + 1)(x + 2)"
+    ]
+  },
+  {
+    "question": "Simplify the algebraic fraction: (6x² + 9x) / (3x).",
+    "correct_answer": "2x + 3",
+    "incorrect_answers": [
+      "3x + 3",
+      "2x² + 3x",
+      "6x + 9",
+      "2x + 9",
+      "x + 3"
+    ]
+  },
+  {
+    "question": "Simplify: (4x³ − 8x²) / (4x²).",
+    "correct_answer": "x − 2",
+    "incorrect_answers": [
+      "4x − 8",
+      "x² − 2",
+      "x − 8",
+      "x² − 8x",
+      "4x − 2"
+    ]
+  },
+  {
+    "question": "Simplify: (3x² − 12) / (3).",
+    "correct_answer": "x² − 4",
+    "incorrect_answers": [
+      "x² − 12",
+      "3x² − 4",
+      "x² − 1",
+      "3x² − 16",
+      "x² − 3"
+    ]
+  },
+  {
+    "question": "Simplify: (5x³ − 15x² + 10x) / (5x).",
+    "correct_answer": "x² − 3x + 2",
+    "incorrect_answers": [
+      "5x² − 3x + 2",
+      "x³ − 3x² + 2x",
+      "x² − 3 + 2",
+      "x² − 3x + 10",
+      "5x² − 15x² + 10x"
+    ]
+  },
+  {
+    "question": "Simplify: (2x² + 4x − 6) / 2.",
+    "correct_answer": "x² + 2x − 3",
+    "incorrect_answers": [
+      "2x² + 2x − 3",
+      "x² + 4x − 6",
+      "x² + 2x − 6",
+      "2x² + 4x − 3",
+      "x² + 4x − 3"
+    ]
+  },
+  {
+    "question": "Simplify: (x² − 9x + 18) / (x − 3).",
+    "correct_answer": "x − 6",
+    "incorrect_answers": [
+      "x + 6",
+      "x − 3",
+      "x − 9",
+      "x + 3",
+      "x² − 3"
+    ]
+  },
+  {
+    "question": "Simplify: (3x² + 11x + 10) / (x + 5).",
+    "correct_answer": "3x + 2",
+    "incorrect_answers": [
+      "3x + 5",
+      "x + 2",
+      "3x + 10",
+      "x + 5",
+      "3x − 2"
+    ]
+  },
+  {
+    "question": "Simplify: (2x² − x − 6) / (2x + 3).",
+    "correct_answer": "x − 2",
+    "incorrect_answers": [
+      "x + 2",
+      "2x − 3",
+      "x − 3",
+      "2x + 2",
+      "x + 3"
+    ]
+  },
+  {
+    "question": "Which of these expressions has no like terms to combine: 3x + 2y − 5z?",
+    "correct_answer": "3x + 2y − 5z",
+    "incorrect_answers": [
+      "3x + 4x − x",
+      "2a² + 5a − 3a²",
+      "5xy + 2xy − 7xy",
+      "x² + x + 2",
+      "4m + 4n − 4"
+    ]
+  },
+  {
+    "question": "Which of the following is the expanded form of (x + 1)(x + 2)(x + 3)?",
+    "correct_answer": "x³ + 6x² + 11x + 6",
+    "incorrect_answers": [
+      "x³ + 5x² + 8x + 6",
+      "x³ + 6x² + 12x + 6",
+      "x³ + 5x² + 11x + 6",
+      "x³ + 6x² + 11x + 5",
+      "x³ + 6x² + 10x + 6"
+    ]
+  },
+  {
+    "question": "Simplify: (x + 2)(x² − 2x + 4).",
+    "correct_answer": "x³ + 8",
+    "incorrect_answers": [
+      "x³ + 2x² + 2x + 8",
+      "x³ + 2x² − 4x + 8",
+      "x³ − 2x² + 4x + 8",
+      "x³ + 2x² + 4x + 8",
+      "x³ + 8x"
+    ]
+  },
+  {
+    "question": "Determine the factorised form of x³ − 27.",
+    "correct_answer": "(x − 3)(x² + 3x + 9)",
+    "incorrect_answers": [
+      "(x − 3)(x − 9)",
+      "(x + 3)(x² − 3x + 9)",
+      "(x − 9)(x² + 3x + 3)",
+      "(x − 3)³",
+      "(x² − 9)(x + 3)"
+    ]
+  },
+  {
+    "question": "Factorise: x⁴ − 16.",
+    "correct_answer": "(x² − 4)(x² + 4) = (x − 2)(x + 2)(x² + 4)",
+    "incorrect_answers": [
+      "(x − 4)(x + 4)",
+      "(x² − 16)(x² + 1)",
+      "(x² − 2)(x² + 8)",
+      "(x − 2)(x + 2)(x − 4)(x + 4)",
+      "(x² − 8)(x² + 2)"
+    ]
+  },
+  {
+    "question": "Which expression shows the distributive law: a(b + c) = ?",
+    "correct_answer": "ab + ac",
+    "incorrect_answers": [
+      "a + bc",
+      "ab + c",
+      "b + ac",
+      "abc",
+      "a(bc)"
+    ]
+  },
+  {
+    "question": "Which property justifies writing 4x + 2 + x as x + 4x + 2?",
+    "correct_answer": "Commutative property of addition",
+    "incorrect_answers": [
+      "Associative property of multiplication",
+      "Distributive property",
+      "Associative property of addition",
+      "Multiplicative property of zero",
+      "Additive inverse property"
+    ]
+  },
+  {
+    "question": "Simplify by combining like terms: 2a²b − 3ab² + 5a²b − ab².",
+    "correct_answer": "7a²b − 4ab²",
+    "incorrect_answers": [
+      "3a²b + 2ab²",
+      "7a²b + 6ab²",
+      "–3a²b + 2ab²",
+      "2a³b − 3ab²",
+      "7a²b − 6ab²"
+    ]
+  },
+  {
+    "question": "Factorise: 9x²y + 6xy².",
+    "correct_answer": "3xy(3x + 2y)",
+    "incorrect_answers": [
+      "6xy(3x + 2y)",
+      "3x²y + 2xy²",
+      "xy(9x + 6y)",
+      "3y(3x² + 2xy)",
+      "3x(3xy + 2y²)"
+    ]
+  },
+  {
+    "question": "Factorise: 4x² − 12xy + 9y².",
+    "correct_answer": "(2x − 3y)²",
+    "incorrect_answers": [
+      "(2x + 3y)(2x − 3y)",
+      "(4x − 3y)(x − 3y)",
+      "(2x − y)(2x − 9y)",
+      "(2x − 3y)(2x + 3y)",
+      "(4x − 9y²)"
+    ]
+  },
+  {
+    "question": "Factorise: 2x² − 8 + 2x.",
+    "correct_answer": "2(x² + x − 4)",
+    "incorrect_answers": [
+      "2x(x − 4)",
+      "2(x² − x − 4)",
+      "2x² + 2x − 8",
+      "2(x² + x + 4)",
+      "2(x² − x + 4)"
+    ]
+  },
+  {
+    "question": "Simplify the expression and write in standard form: (x − 1)(x² + x + 1).",
+    "correct_answer": "x³ − 1",
+    "incorrect_answers": [
+      "x³ + 1",
+      "x³ − x² + 1",
+      "x³ + x² − 1",
+      "x³ − x + 1",
+      "x³ − x² − 1"
+    ]
+  },
+  {
+    "question": "Factorise: x³ + 8.",
+    "correct_answer": "(x + 2)(x² − 2x + 4)",
+    "incorrect_answers": [
+      "(x + 2)(x + 4)",
+      "(x + 4)(x² − 2x + 4)",
+      "(x + 2)³",
+      "(x − 2)(x² + 2x + 4)",
+      "(x + 2)(x² + 2x + 4)"
+    ]
+  },
+  {
+    "question": "Simplify by factorisation: 5x³y − 15xy.",
+    "correct_answer": "5xy(x² − 3)",
+    "incorrect_answers": [
+      "5x³y − 15xy",
+      "5x(x²y − 3y)",
+      "5y(x³ − 3x)",
+      "xy(5x² − 15)",
+      "5xy( x²y − 3 )"
+    ]
+  },
+  {
+    "question": "Simplify the algebraic fraction: (x² − 4x + 4) / (x − 2).",
+    "correct_answer": "x − 2",
+    "incorrect_answers": [
+      "x + 2",
+      "x² − 4",
+      "x − 4",
+      "(x − 2)²",
+      "x + 4"
+    ]
+  },
+  {
+    "question": "Factorise completely: x⁴ − 5x² + 4.",
+    "correct_answer": "(x² − 4)(x² − 1) = (x − 2)(x + 2)(x − 1)(x + 1)",
+    "incorrect_answers": [
+      "(x² − 5x + 4)(x² + 5x − 4)",
+      "(x − 1)(x + 1)(x − 4)(x + 4)",
+      "(x² − 4)(x² + 1)",
+      "(x² − 1)(x² + 4)",
+      "(x − 2)(x + 2)(x² − 4)"
+    ]
+  },
+  {
+    "question": "Express 6x² − 15x over 3x in simplest form.",
+    "correct_answer": "2x − 5",
+    "incorrect_answers": [
+      "2x + 5",
+      "3x − 5",
+      "2x² − 5",
+      "6x − 15",
+      "2 − 5x"
+    ]
+  },
+{
+    "question": "Flow Diagram: Input → multiply by 2 → add 3 → Output. What is the output when the input is 4?",
+    "correct_answer": "11",
+    "incorrect_answers": ["10", "8", "12", "9", "7"]
+  },
+  {
+    "question": "Flow Diagram: Input → multiply by 2 → add 3 → Output. What is the output when the input is −5?",
+    "correct_answer": "−7",
+    "incorrect_answers": ["−13", "−3", "−2", "−10", "−1"]
+  },
+  {
+    "question": "Flow Diagram: Input → subtract 5 → multiply by 3 → Output. What is the output when the input is 7?",
+    "correct_answer": "6",
+    "incorrect_answers": ["−6", "9", "12", "−12", "1"]
+  },
+  {
+    "question": "Flow Diagram: Input → square → subtract 1 → Output. What is the output when the input is 5?",
+    "correct_answer": "24",
+    "incorrect_answers": ["26", "20", "18", "21", "30"]
+  },
+  {
+    "question": "Flow Diagram: Input → cube → add 2 → Output. What is the output when the input is 2?",
+    "correct_answer": "10",
+    "incorrect_answers": ["8", "12", "16", "7", "18"]
+  },
+  {
+    "question": "Flow Diagram: Input → divide by 2 → add 4 → Output. What is the output when the input is 8?",
+    "correct_answer": "8",
+    "incorrect_answers": ["6", "10", "5", "7", "9"]
+  },
+  {
+    "question": "Flow Diagram: Input → multiply by −1 → add 3 → Output. What is the output when the input is 5?",
+    "correct_answer": "−2",
+    "incorrect_answers": ["−8", "2", "−1", "1", "8"]
+  },
+  {
+    "question": "Flow Diagram: Input → subtract 2 → divide by 3 → Output. What is the output when the input is 11?",
+    "correct_answer": "3",
+    "incorrect_answers": ["2", "1", "4", "5", "−3"]
+  },
+  {
+    "question": "Flow Diagram: Input → square root → multiply by 4 → Output. What is the output when the input is 16?",
+    "correct_answer": "16",
+    "incorrect_answers": ["8", "12", "20", "4", "10"]
+  },
+  {
+    "question": "Flow Diagram: Input → cube root → subtract 1 → Output. What is the output when the input is 27?",
+    "correct_answer": "2",
+    "incorrect_answers": ["3", "1", "4", "5", "6"]
+  },
+  {
+    "question": "Flow Diagram: Input → multiply by 3 → subtract 4. Which algebraic formula represents this rule?",
+    "correct_answer": "f(x) = 3x − 4",
+    "incorrect_answers": ["f(x) = 3x + 4", "f(x) = x − 4", "f(x) = 4x − 3", "f(x) = 3(x + 4)", "f(x) = x(3 − 4)"]
+  },
+  {
+    "question": "Flow Diagram: Input → add 5 → divide by 2. Which algebraic formula represents this rule?",
+    "correct_answer": "f(x) = (x + 5) / 2",
+    "incorrect_answers": ["f(x) = 2(x + 5)", "f(x) = x/5 + 2", "f(x) = x + (5/2)", "f(x) = (2x + 5)", "f(x) = 2x + 5"]
+  },
+  {
+    "question": "Flow Diagram: Input → square → multiply by 2. Which algebraic formula represents this rule?",
+    "correct_answer": "f(x) = 2x²",
+    "incorrect_answers": ["f(x) = (2x)²", "f(x) = x² + 2", "f(x) = 2(x² + 1)", "f(x) = 2x + x", "f(x) = x² − 2"]
+  },
+  {
+    "question": "Flow Diagram: Input → subtract 7 → cube. Which algebraic formula represents this rule?",
+    "correct_answer": "f(x) = (x − 7)³",
+    "incorrect_answers": ["f(x) = x³ − 7", "f(x) = ³√(x − 7)", "f(x) = (x³ − 7)", "f(x) = x³ − 7x", "f(x) = (x − 7)²"]
+  },
+  {
+    "question": "Flow Diagram: Input → divide by 4 → add 1. Which algebraic formula represents this rule?",
+    "correct_answer": "f(x) = x/4 + 1",
+    "incorrect_answers": ["f(x) = (x + 1) / 4", "f(x) = x + (1/4)", "f(x) = 4x + 1", "f(x) = (x + 4)/1", "f(x) = x/(4 + 1)"]
+  },
+  {
+    "question": "Table: Input x → Output y. 1 → 4, 2 → 7, 3 → 10. What is the rule in the form y = mx + c?",
+    "correct_answer": "y = 3x + 1",
+    "incorrect_answers": ["y = 2x + 2", "y = x + 3", "y = 4x − 1", "y = 3x − 1", "y = 2x + 1"]
+  },
+  {
+    "question": "Table: Input x → Output y. 0 → −2, 1 → 1, 2 → 4. What is the rule in the form y = mx + c?",
+    "correct_answer": "y = 3x − 2",
+    "incorrect_answers": ["y = 2x − 2", "y = x − 2", "y = 3x + 2", "y = 4x − 2", "y = 3x − 1"]
+  },
+  {
+    "question": "Table: Input x → Output y. 3 → 6, 4 → 8, 5 → 10. What is the rule in the form y = mx?",
+    "co
