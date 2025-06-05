@@ -1,1 +1,632 @@
-g
+[
+  {
+    "question": "Two lines are perpendicular. What is the measure of each angle at their intersection?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Line AB is perpendicular to line CD at point O. What is the measure of ∠AOC if point A, O, C are collinear?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "If line l is perpendicular to line m, and ∠1 is the angle between them, what is ∠2 adjacent to ∠1?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Two perpendicular lines form four angles. What is the sum of any two adjacent angles?",
+    "correct_answer": "180°",
+    "incorrect_answers": ["90°", "360°", "120°", "270°", "60°"]
+  },
+  {
+    "question": "If AB ⟂ CD, and ∠BOC is a right angle, what is ∠AOB?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["60°", "45°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "A line is drawn perpendicular to a horizontal line. What is the angle between them?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Two roads cross at right angles. What type of angle do they form?",
+    "correct_answer": "Right angle",
+    "incorrect_answers": ["Acute angle", "Obtuse angle", "Straight angle", "Reflex angle", "Zero angle"]
+  },
+  {
+    "question": "If lines AB and CD are perpendicular, and ∠AOD is 90°, what is ∠BOD?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Two perpendicular lines intersect. What is the measure of the angle opposite a right angle?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "If line XY ⟂ line YZ at Y, what is ∠XYZ?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Two lines intersect at a point and form angles of 50° and x. If they are perpendicular, what is x?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["50°", "40°", "60°", "30°", "120°"]
+  },
+  {
+    "question": "Lines AB and EF intersect at G. If AB ⟂ EF, what is ∠AGF if A, G, F are collinear?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Two perpendicular lines form a straight line across them. What is the angle between the straight line and one of the perpendicular arms?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "If line l ⟂ line m at point P, what is ∠QPR where Q, P, R are points on l and m respectively?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
+  },
+  {
+    "question": "Two intersecting lines form four angles. If one is 90°, what are the other three angles?",
+    "correct_answer": "90°, 90°, 90°",
+    "incorrect_answers": ["45°, 45°, 45°", "60°, 60°, 60°", "120°, 120°, 120°", "90°, 90°, 180°", "45°, 45°, 90°"]
+  },
+  {
+    "question": "Two lines intersect at point O forming angles 70° and 110°. Are the lines perpendicular?",
+    "correct_answer": "No",
+    "incorrect_answers": ["Yes", "Only if 70° = 90°", "Only if 110° = 90°", "Only if 70° + 20° = 90°", "Only if 110° + 20° = 90°"]
+  },
+  {
+    "question": "Two lines are perpendicular. What is the relationship between any adjacent angle and the opposite ‘vertical’ angle?",
+    "correct_answer": "They are equal (both 90°).",
+    "incorrect_answers": ["One is twice the other", "They add to 90°", "They add to 180°", "One is half the other", "They add to 360°"]
+  },
+  {
+    "question": "Two lines cross. One angle is 130°. What is the vertical angle opposite to it?",
+    "correct_answer": "130°",
+    "incorrect_answers": ["50°", "40°", "90°", "180°", "100°"]
+  },
+  {
+    "question": "Two intersecting lines form angles of 40° and x. What is x if the lines form supplementary pairs?",
+    "correct_answer": "140°",
+    "incorrect_answers": ["40°", "50°", "90°", "60°", "100°"]
+  },
+  {
+    "question": "If two lines intersect and ∠1 = 120°, what is the angle adjacent to ∠1 on the straight line?",
+    "correct_answer": "60°",
+    "incorrect_answers": ["120°", "30°", "90°", "45°", "100°"]
+  },
+  {
+    "question": "Two lines intersect at point P creating angles of 70° and 110°. What is the angle vertical to 70°?",
+    "correct_answer": "70°",
+    "incorrect_answers": ["110°", "90°", "60°", "40°", "50°"]
+  },
+  {
+    "question": "When two lines intersect, what is the sum of two adjacent angles on a straight line?",
+    "correct_answer": "180°",
+    "incorrect_answers": ["90°", "360°", "120°", "270°", "60°"]
+  },
+  {
+    "question": "When two lines intersect, the vertical angles are ________.",
+    "correct_answer": "Equal",
+    "incorrect_answers": ["Supplementary", "Complementary", "Opposite but different", "Half the sum", "Twice each other"]
+  },
+  {
+    "question": "If two lines intersect forming an angle of 80°, what is the opposite angle?",
+    "correct_answer": "80°",
+    "incorrect_answers": ["100°", "90°", "60°", "120°", "70°"]
+  },
+  {
+    "question": "Two lines intersect at point O, forming angles A and B that are vertical angles. If ∠A = 55°, what is ∠B?",
+    "correct_answer": "55°",
+    "incorrect_answers": ["125°", "45°", "90°", "60°", "50°"]
+  },
+  {
+    "question": "If two lines intersect and one angle is 100°, what is the other angle on the straight line?",
+    "correct_answer": "80°",
+    "incorrect_answers": ["100°", "90°", "60°", "70°", "120°"]
+  },
+  {
+    "question": "Two lines intersect forming four angles. If one is 45°, what is the angle adjacent to it?",
+    "correct_answer": "135°",
+    "incorrect_answers": ["45°", "90°", "180°", "60°", "30°"]
+  },
+  {
+    "question": "Lines l and m intersect. If one acute angle is 35°, what is its vertical angle?",
+    "correct_answer": "35°",
+    "incorrect_answers": ["145°", "55°", "90°", "180°", "75°"]
+  },
+  {
+    "question": "Lines l and m intersect. If one obtuse angle is 140°, what is the adjacent angle on the straight line?",
+    "correct_answer": "40°",
+    "incorrect_answers": ["140°", "90°", "60°", "100°", "120°"]
+  },
+  {
+    "question": "Lines l and m intersect at 60° in one region. What is the angle directly opposite?",
+    "correct_answer": "60°",
+    "incorrect_answers": ["120°", "90°", "30°", "180°", "100°"]
+  },
+  {
+    "question": "Lines l and m intersect. One angle measures 75°. What is the other three angles combined?",
+    "correct_answer": "285°",
+    "incorrect_answers": ["105°", "180°", "225°", "255°", "150°"]
+  },
+  {
+    "question": "Parallel lines l and m are cut by transversal t. If a corresponding angle is 65°, what is the corresponding angle on the other parallel line?",
+    "correct_answer": "65°",
+    "incorrect_answers": ["115°", "45°", "125°", "55°", "75°"]
+  },
+  {
+    "question": "Parallel lines l and m are cut by transversal t. If an alternate interior angle is 80°, what is its pair on the other side of the transversal?",
+    "correct_answer": "80°",
+    "incorrect_answers": ["100°", "60°", "90°", "70°", "120°"]
+  },
+  {
+    "question": "Parallel lines a and b are cut by transversal c. If an exterior angle is 50°, what is the interior angle on the same side of the transversal?",
+    "correct_answer": "130°",
+    "incorrect_answers": ["50°", "140°", "90°", "70°", "100°"]
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal and one co-interior angle is 110°, what is the other co-interior angle on the same side?",
+    "correct_answer": "70°",
+    "incorrect_answers": ["110°", "90°", "60°", "100°", "50°"]
+  },
+  {
+    "question": "Parallel lines l and m are cut by transversal t. If a corresponding angle on l is 45°, what is the corresponding angle on m?",
+    "correct_answer": "45°",
+    "incorrect_answers": ["135°", "90°", "60°", "30°", "120°"]
+  },
+  {
+    "question": "Parallel lines p and q are cut by transversal r. If an alternate exterior angle is 75°, what is its matching alternate exterior angle?",
+    "correct_answer": "75°",
+    "incorrect_answers": ["105°", "45°", "90°", "30°", "120°"]
+  },
+  {
+    "question": "Parallel lines x and y are cut by transversal z. If angle 1 is 100° and is co-interior with angle 2 on the same side, what is angle 2?",
+    "correct_answer": "80°",
+    "incorrect_answers": ["100°", "90°", "60°", "120°", "70°"]
+  },
+  {
+    "question": "Parallel lines a and b are cut by transversal c. If angle p on a is 30° and is alternate interior to angle q on b, what is angle q?",
+    "correct_answer": "30°",
+    "incorrect_answers": ["150°", "60°", "90°", "45°", "120°"]
+  },
+  {
+    "question": "Lines l and m are parallel. Transversal t crosses them. If an interior angle on one has measure 55°, what is the adjacent interior angle on the same side?",
+    "correct_answer": "125°",
+    "incorrect_answers": ["55°", "90°", "60°", "45°", "100°"]
+  },
+  {
+    "question": "Lines l and m are parallel. Transversal t crosses them. If angle A is 40° (exterior), what is the corresponding interior angle at the far end on m?",
+    "correct_answer": "40°",
+    "incorrect_answers": ["140°", "60°", "50°", "80°", "100°"]
+  },
+  {
+    "question": "Lines l and m are parallel with transversal t. If angle 1 is 120° (alternate interior to angle 2), what is angle 2?",
+    "correct_answer": "120°",
+    "incorrect_answers": ["60°", "90°", "30°", "150°", "100°"]
+  },
+  {
+    "question": "Parallel lines p and q are cut by transversal r. If angle X on p is 70° and angle Y on q is a co-interior angle, what is angle Y?",
+    "correct_answer": "110°",
+    "incorrect_answers": ["70°", "90°", "60°", "120°", "50°"]
+  },
+  {
+    "question": "Parallel lines a and b are cut by a transversal. If one corresponding angle is 85°, what is its vertically opposite angle on the same intersection?",
+    "correct_answer": "85°",
+    "incorrect_answers": ["95°", "80°", "90°", "75°", "100°"]
+  },
+  {
+    "question": "In parallel lines m and n cut by transversal t, if ∠1 is 50° (inside left), what is ∠2 (alternate interior on right)?",
+    "correct_answer": "50°",
+    "incorrect_answers": ["130°", "40°", "90°", "60°", "100°"]
+  },
+  {
+    "question": "Parallel lines l and m cut by transversal t. If ∠P on l is 65° (exterior), what is the interior corresponding angle on m?",
+    "correct_answer": "65°",
+    "incorrect_answers": ["115°", "45°", "90°", "30°", "100°"]
+  },
+  {
+    "question": "Parallel lines p and q cut by transversal r. If ∠A on p is 110° (co-interior with ∠B on q), what is ∠B?",
+    "correct_answer": "70°",
+    "incorrect_answers": ["110°", "90°", "60°", "120°", "80°"]
+  },
+  {
+    "question": "Parallel lines x and y cut by transversal z. If ∠M on x is 25° (alternate exterior with ∠N on y), what is ∠N?",
+    "correct_answer": "25°",
+    "incorrect_answers": ["155°", "65°", "45°", "90°", "135°"]
+  },
+  {
+    "question": "Parallel lines a and b cut by transversal c. If ∠U on a is 140° (interior), what is ∠V on b co-interior with U?",
+    "correct_answer": "40°",
+    "incorrect_answers": ["140°", "90°", "60°", "100°", "120°"]
+  },
+  {
+    "question": "On parallel lines l and m, a transversal creates ∠Q of 95°. Which angle on the other parallel line is supplementary to Q on the same side?",
+    "correct_answer": "85°",
+    "incorrect_answers": ["95°", "90°", "60°", "45°", "100°"]
+  },
+  {
+    "question": "Parallel lines p and q are cut by a transversal. If ∠R on p is 35° (corresponding to ∠S on q), what is ∠S?",
+    "correct_answer": "35°",
+    "incorrect_answers": ["145°", "55°", "90°", "50°", "75°"]
+  },
+  {
+    "question": "Parallel lines a and b cut by transversal c. If ∠D on a is 47° (exterior), what is the interior alternate angle on b?",
+    "correct_answer": "47°",
+    "incorrect_answers": ["133°", "43°", "90°", "53°", "100°"]
+  },
+  {
+    "question": "Parallel lines x and y cut by z. If ∠1 is 82° (interior), what is the co-interior partner ∠2 on the same side?",
+    "correct_answer": "98°",
+    "incorrect_answers": ["82°", "90°", "78°", "100°", "60°"]
+  },
+  {
+    "question": "Parallel lines l and m cut by t. If ∠A on l is 55° (alternate interior to ∠B on m), what is ∠B?",
+    "correct_answer": "55°",
+    "incorrect_answers": ["125°", "35°", "90°", "65°", "100°"]
+  },
+  {
+    "question": "Parallel lines p and q cut by r. If ∠X on p is 20° (adjacent on the same intersection), what is its vertical angle?",
+    "correct_answer": "20°",
+    "incorrect_answers": ["160°", "70°", "90°", "40°", "45°"]
+  },
+{
+    "question": "Calculate the perimeter of a rectangle with length 8 cm and width 5 cm.",
+    "correct_answer": "26 cm",
+    "incorrect_answers": ["13 cm", "40 cm", "30 cm", "20 cm", "24 cm"]
+  },
+  {
+    "question": "Find the area of a rectangle with length 12 m and width 7 m.",
+    "correct_answer": "84 m²",
+    "incorrect_answers": ["19 m²", "84 m", "76 m²", "72 m²", "90 m²"]
+  },
+  {
+    "question": "A square has side length 6 cm. What is its perimeter?",
+    "correct_answer": "24 cm",
+    "incorrect_answers": ["36 cm", "12 cm", "18 cm", "30 cm", "20 cm"]
+  },
+  {
+    "question": "Find the area of a square with side length 9 cm.",
+    "correct_answer": "81 cm²",
+    "incorrect_answers": ["36 cm²", "72 cm²", "18 cm²", "90 cm²", "27 cm²"]
+  },
+  {
+    "question": "Calculate the perimeter of an equilateral triangle with side 10 cm.",
+    "correct_answer": "30 cm",
+    "incorrect_answers": ["20 cm", "40 cm", "15 cm", "25 cm", "35 cm"]
+  },
+  {
+    "question": "Find the area of a triangle with base 8 cm and height 5 cm.",
+    "correct_answer": "20 cm²",
+    "incorrect_answers": ["40 cm²", "13 cm²", "30 cm²", "10 cm²", "16 cm²"]
+  },
+  {
+    "question": "A right-angled triangle has legs 6 m and 8 m. What is its perimeter? (Hint: use Pythagoras.)",
+    "correct_answer": "24 m",
+    "incorrect_answers": ["20 m", "22 m", "26 m", "18 m", "30 m"]
+  },
+  {
+    "question": "Calculate the area of a right-angled triangle with legs 6 m and 8 m.",
+    "correct_answer": "24 m²",
+    "incorrect_answers": ["28 m²", "48 m²", "14 m²", "30 m²", "20 m²"]
+  },
+  {
+    "question": "Find the perimeter of a parallelogram with base 7 cm and side 5 cm.",
+    "correct_answer": "24 cm",
+    "incorrect_answers": ["14 cm", "20 cm", "30 cm", "34 cm", "16 cm"]
+  },
+  {
+    "question": "Calculate the area of a parallelogram with base 10 cm and height 4 cm.",
+    "correct_answer": "40 cm²",
+    "incorrect_answers": ["20 cm²", "14 cm²", "24 cm²", "50 cm²", "30 cm²"]
+  },
+  {
+    "question": "A trapezium has parallel sides 6 m and 10 m, and height 4 m. Find its area.",
+    "correct_answer": "32 m²",
+    "incorrect_answers": ["24 m²", "28 m²", "40 m²", "16 m²", "20 m²"]
+  },
+  {
+    "question": "Find the perimeter of an isosceles trapezium with parallel sides 8 cm and 5 cm, and equal non-parallel sides 4 cm each.",
+    "correct_answer": "21 cm",
+    "incorrect_answers": ["17 cm", "24 cm", "20 cm", "18 cm", "22 cm"]
+  },
+  {
+    "question": "Calculate the area of a rhombus with diagonals 9 cm and 12 cm.",
+    "correct_answer": "54 cm²",
+    "incorrect_answers": ["108 cm²", "21 cm²", "36 cm²", "72 cm²", "45 cm²"]
+  },
+  {
+    "question": "Find the perimeter of a regular pentagon with side length 5 cm.",
+    "correct_answer": "25 cm",
+    "incorrect_answers": ["20 cm", "30 cm", "15 cm", "10 cm", "35 cm"]
+  },
+  {
+    "question": "Calculate the area of a regular hexagon with side length 4 cm. (Use area formula: (3√3/2) × side²; √3 ≈ 1.732.)",
+    "correct_answer": "41.57 cm²",
+    "incorrect_answers": ["48 cm²", "27.71 cm²", "32 cm²", "36 cm²", "38.48 cm²"]
+  },
+  {
+    "question": "A regular octagon has side length 3 cm. What is its perimeter?",
+    "correct_answer": "24 cm",
+    "incorrect_answers": ["18 cm", "30 cm", "12 cm", "21 cm", "27 cm"]
+  },
+  {
+    "question": "Find the area of a regular pentagon with side length 6 cm. (Use area ≈ 1.720 × side².)",
+    "correct_answer": "61.92 cm²",
+    "incorrect_answers": ["36 cm²", "72 cm²", "54 cm²", "48 cm²", "66 cm²"]
+  },
+  {
+    "question": "Calculate the perimeter of a regular triangle (equilateral) with side 12 cm.",
+    "correct_answer": "36 cm",
+    "incorrect_answers": ["24 cm", "18 cm", "30 cm", "40 cm", "48 cm"]
+  },
+  {
+    "question": "Find the area of an equilateral triangle with side 10 cm. (Use area = (√3/4) × side²; √3 ≈ 1.732.)",
+    "correct_answer": "43.3 cm²",
+    "incorrect_answers": ["50 cm²", "86.6 cm²", "25 cm²", "60 cm²", "30 cm²"]
+  },
+  {
+    "question": "A quadrilateral has vertices forming a rectangle 5 cm by 2 cm. How many square centimeters is its area?",
+    "correct_answer": "10 cm²",
+    "incorrect_answers": ["7 cm²", "14 cm²", "8 cm²", "12 cm²", "6 cm²"]
+  },
+  {
+    "question": "Calculate the perimeter of a right-angled triangle with legs 3 cm and 4 cm.",
+    "correct_answer": "12 cm",
+    "incorrect_answers": ["10 cm", "14 cm", "13 cm", "11 cm", "9 cm"]
+  },
+  {
+    "question": "Find the circumference of a circle with radius 7 cm. (Use π = 3.14.)",
+    "correct_answer": "43.96 cm",
+    "incorrect_answers": ["21.98 cm", "28 cm", "44 cm", "38.5 cm", "31.4 cm"]
+  },
+  {
+    "question": "Calculate the area of a circle with diameter 10 m. (Use π = 3.14.)",
+    "correct_answer": "78.5 m²",
+    "incorrect_answers": ["31.4 m²", "50 m²", "62.8 m²", "100 m²", "28.6 m²"]
+  },
+  {
+    "question": "Find the circumference of a circle with diameter 12 cm. (Use π = 3.14.)",
+    "correct_answer": "37.68 cm",
+    "incorrect_answers": ["18.84 cm", "24 cm", "25 cm", "30 cm", "40 cm"]
+  },
+  {
+    "question": "A circle’s area is 50.24 m². What is its radius? (Use π = 3.14; area = πr².)",
+    "correct_answer": "4 m",
+    "incorrect_answers": ["2 m", "5 m", "3 m", "6 m", "7 m"]
+  },
+  {
+    "question": "Calculate the area of a semicircle with radius 5 cm. (Use π = 3.14.)",
+    "correct_answer": "39.25 cm²",
+    "incorrect_answers": ["78.5 cm²", "25 cm²", "31.4 cm²", "49.5 cm²", "45 cm²"]
+  },
+  {
+    "question": "Find the perimeter of a semicircle with radius 6 cm. (Include the diameter; use π = 3.14.)",
+    "correct_answer": "24.84 cm",
+    "incorrect_answers": ["18.84 cm", "12.56 cm", "25 cm", "30 cm", "20 cm"]
+  },
+  {
+    "question": "A circle has radius 0.5 m. What is its area? (Use π = 3.14.)",
+    "correct_answer": "0.785 m²",
+    "incorrect_answers": ["1.57 m²", "0.25 m²", "3.14 m²", "0.314 m²", "2 m²"]
+  },
+  {
+    "question": "Calculate the circumference of a circle with radius 2.5 cm. (Use π = 3.14.)",
+    "correct_answer": "15.7 cm",
+    "incorrect_answers": ["7.85 cm", "25 cm", "12.56 cm", "10 cm", "20 cm"]
+  },
+  {
+    "question": "Find the area of a quarter-circle with radius 4 cm. (Use π = 3.14.)",
+    "correct_answer": "12.56 cm²",
+    "incorrect_answers": ["25.12 cm²", "6.28 cm²", "50.24 cm²", "20 cm²", "16 cm²"]
+  },
+  {
+    "question": "A circle’s circumference is 31.4 cm. What is its diameter? (Use π = 3.14.)",
+    "correct_answer": "10 cm",
+    "incorrect_answers": ["5 cm", "15 cm", "20 cm", "8 cm", "12 cm"]
+  },
+  {
+    "question": "Calculate the area of a circle whose circumference is 18.84 m. (Use π = 3.14.)",
+    "correct_answer": "28.26 m²",
+    "incorrect_answers": ["14.13 m²", "56.52 m²", "18.84 m²", "36 m²", "31.4 m²"]
+  },
+  {
+    "question": "Find the perimeter of a regular hexagon with side length 8 cm.",
+    "correct_answer": "48 cm",
+    "incorrect_answers": ["40 cm", "36 cm", "56 cm", "64 cm", "32 cm"]
+  },
+  {
+    "question": "Calculate the area of a regular hexagon with side 5 cm. (Use formula: (3√3/2) × side²; √3 ≈ 1.732.)",
+    "correct_answer": "64.95 cm²",
+    "incorrect_answers": ["75 cm²", "50 cm²", "43.3 cm²", "36 cm²", "54.9 cm²"]
+  },
+  {
+    "question": "A regular octagon has side length 4 cm. What is its perimeter?",
+    "correct_answer": "32 cm",
+    "incorrect_answers": ["24 cm", "36 cm", "16 cm", "40 cm", "28 cm"]
+  },
+  {
+    "question": "Find the area of a regular octagon with side 3 cm. (Use area ≈ 2 × (1 + √2) × side²; √2 ≈ 1.414.)",
+    "correct_answer": "43.03 cm²",
+    "incorrect_answers": ["36 cm²", "54 cm²", "72 cm²", "28 cm²", "48 cm²"]
+  },
+  {
+    "question": "Calculate the area of an isosceles trapezium with parallel sides 8 cm and 12 cm and height 5 cm.",
+    "correct_answer": "50 cm²",
+    "incorrect_answers": ["40 cm²", "60 cm²", "45 cm²", "55 cm²", "48 cm²"]
+  },
+  {
+    "question": "Find the perimeter of a trapezium with parallel sides 7 m and 10 m, and non-parallel sides 5 m and 6 m.",
+    "correct_answer": "28 m",
+    "incorrect_answers": ["22 m", "18 m", "26 m", "30 m", "24 m"]
+  },
+  {
+    "question": "Calculate the area of a kite with diagonals 6 cm and 8 cm.",
+    "correct_answer": "24 cm²",
+    "incorrect_answers": ["48 cm²", "14 cm²", "20 cm²", "30 cm²", "18 cm²"]
+  },
+  {
+    "question": "Find the perimeter of a kite with equal sides 5 cm and 7 cm.",
+    "correct_answer": "24 cm",
+    "incorrect_answers": ["20 cm", "22 cm", "18 cm", "26 cm", "16 cm"]
+  },
+  {
+    "question": "A regular decagon has side length 3 cm. What is its perimeter?",
+    "correct_answer": "30 cm",
+    "incorrect_answers": ["24 cm", "20 cm", "36 cm", "40 cm", "18 cm"]
+  },
+  {
+    "question": "Calculate the area of a regular decagon with side 2 cm. (Use area ≈ (5/2) × side² × cot(π/10); cot(π/10) ≈ 3.077.)",
+    "correct_answer": "30.77 cm²",
+    "incorrect_answers": ["20 cm²", "25 cm²", "15 cm²", "40 cm²", "35 cm²"]
+  },
+  {
+    "question": "Find the circumference of a circle with radius 15 cm. (Use π = 3.14.)",
+    "correct_answer": "94.2 cm",
+    "incorrect_answers": ["47.1 cm", "60 cm", "75 cm", "100 cm", "80 cm"]
+  },
+  {
+    "question": "Calculate the area of a circle with radius 8 m. (Use π = 3.14.)",
+    "correct_answer": "201.06 m²",
+    "incorrect_answers": ["100.53 m²", "150 m²", "175.84 m²", "256 m²", "50 m²"]
+  },
+  {
+    "question": "A circle’s diameter is 14 cm. What is its area? (Use π = 3.14.)",
+    "correct_answer": "153.86 cm²",
+    "incorrect_answers": ["69.88 cm²", "98 cm²", "210 cm²", "78.5 cm²", "176 cm²"]
+  },
+  {
+    "question": "Find the circumference of a circle with diameter 20 m. (Use π = 3.14.)",
+    "correct_answer": "62.8 m",
+    "incorrect_answers": ["31.4 m", "40 m", "50 m", "75 m", "100 m"]
+  },
+  {
+    "question": "Calculate the area of a quarter-circle with diameter 10 cm. (Use π = 3.14.)",
+    "correct_answer": "19.63 cm²",
+    "incorrect_answers": ["78.5 cm²", "39.25 cm²", "15 cm²", "12.5 cm²", "25 cm²"]
+  },
+  {
+    "question": "A circular garden has radius 4 m. What is its circumference? (Use π = 3.14.)",
+    "correct_answer": "25.12 m",
+    "incorrect_answers": ["12.56 m", "16 m", "50.24 m", "20 m", "28 m"]
+  },
+  {
+    "question": "Find the area of an annulus (ring) with outer radius 6 cm and inner radius 4 cm. (Use π = 3.14.)",
+    "correct_answer": "65.94 cm²",
+    "incorrect_answers": ["50.24 cm²", "28.26 cm²", "75 cm²", "100 cm²", "88.56 cm²"]
+  },
+  {
+    "question": "Calculate the perimeter of a regular hexagon inscribed in a circle of radius 5 cm. (Side length ≈ radius.)",
+    "correct_answer": "30 cm",
+    "incorrect_answers": ["25 cm", "20 cm", "35 cm", "40 cm", "28 cm"]
+  },
+  {
+    "question": "Find the area of a sector with central angle 90° in a circle of radius 10 cm. (Use π = 3.14.)",
+    "correct_answer": "78.5 cm²",
+    "incorrect_answers": ["157 cm²", "31.4 cm²", "50 cm²", "100 cm²", "62.8 cm²"]
+  },
+  {
+    "question": "A circle’s circumference is 12.56 m. What is its radius? (Use π = 3.14.)",
+    "correct_answer": "2 m",
+    "incorrect_answers": ["1 m", "4 m", "3 m", "6 m", "5 m"]
+  },
+  {
+    "question": "Calculate the area of a circle whose circumference is 31.4 cm. (Use π = 3.14.)",
+    "correct_answer": "78.5 cm²",
+    "incorrect_answers": ["31.4 cm²", "50 cm²", "100 cm²", "62.8 cm²", "40 cm²"]
+  },
+  {
+    "question": "Find the perimeter of a regular heptagon with side length 7 cm.",
+    "correct_answer": "49 cm",
+    "incorrect_answers": ["42 cm", "56 cm", "35 cm", "63 cm", "28 cm"]
+  },
+  {
+    "question": "Calculate the area of a regular heptagon with side 3 cm. (Use formula: (7/4) × side² × cot(π/7); cot(π/7) ≈ 3.078.)",
+    "correct_answer": "48.26 cm²",
+    "incorrect_answers": ["36 cm²", "54 cm²", "40 cm²", "60 cm²", "30 cm²"]
+  },
+  {
+    "question": "A circle’s radius is halved. By what factor does its area change?",
+    "correct_answer": "One quarter",
+    "incorrect_answers": ["One half", "Two", "Four", "One third", "One"]
+  },
+  {
+    "question": "A circular track has radius 20 m. How far does a person travel in one complete lap? (Use π = 3.14.)",
+    "correct_answer": "125.6 m",
+    "incorrect_answers": ["62.8 m", "40 m", "31.4 m", "80 m", "50 m"]
+  },
+  {
+    "question": "Calculate the area of a circle that fits exactly inside a square of side 8 cm.",
+    "correct_answer": "50.24 cm²",
+    "incorrect_answers": ["64 cm²", "32 cm²", "100.48 cm²", "16 cm²", "28.26 cm²"]
+  },
+  {
+    "question": "Find the difference in area between a circle of radius 5 cm and a square of side 10 cm. (Use π = 3.14.)",
+    "correct_answer": "17.85 cm²",
+    "incorrect_answers": ["50 cm²", "32.86 cm²", "78.5 cm²", "25 cm²", "15 cm²"]
+  },
+  {
+    "question": "A regular polygon has 10 sides of length 6 cm. What is its perimeter?",
+    "correct_answer": "60 cm",
+    "incorrect_answers": ["50 cm", "54 cm", "66 cm", "48 cm", "72 cm"]
+  },
+  {
+    "question": "Calculate the area of a regular decagon with side 4 cm. (Use area ≈ (10/4) × side² × cot(π/10); cot(π/10) ≈ 3.077.)",
+    "correct_answer": "48.92 cm²",
+    "incorrect_answers": ["40 cm²", "60 cm²", "32 cm²", "50 cm²", "55 cm²"]
+  },
+  {
+    "question": "Find the circumference of a circle whose diameter is 15 cm. (Use π = 3.14.)",
+    "correct_answer": "47.1 cm",
+    "incorrect_answers": ["23.55 cm", "60 cm", "30 cm", "50 cm", "40 cm"]
+  },
+  {
+    "question": "Calculate the area of a semicircle with diameter 12 m. (Use π = 3.14.)",
+    "correct_answer": "56.52 m²",
+    "incorrect_answers": ["75.36 m²", "113.04 m²", "37.68 m²", "45 m²", "60 m²"]
+  },
+  {
+    "question": "A circle’s area is 154 cm². What is its diameter? (Use π = 3.14.)",
+    "correct_answer": "14 cm",
+    "incorrect_answers": ["7 cm", "10 cm", "12 cm", "16 cm", "18 cm"]
+  },
+  {
+    "question": "Find the area of a quarter-circle with radius 7 cm. (Use π = 3.14.)",
+    "correct_answer": "38.465 cm²",
+    "incorrect_answers": ["153.86 cm²", "76.93 cm²", "28 cm²", "12.25 cm²", "49 cm²"]
+  },
+  {
+    "question": "Calculate the perimeter of a square whose area is 144 m².",
+    "correct_answer": "48 m",
+    "incorrect_answers": ["24 m", "36 m", "60 m", "40 m", "72 m"]
+  },
+  {
+    "question": "Find the area of a rhombus with sides 5 cm and an angle of 60° between them. (Use area = side² × sin(angle); sin60° ≈ 0.866.)",
+    "correct_answer": "21.65 cm²",
+    "incorrect_answers": ["25 cm²", "15 cm²", "30 cm²", "18 cm²", "10 cm²"]
+  },
+  {
+    "question": "Calculate the perimeter of a regular heptagon with side 4 cm.",
+    "correct_answer": "28 cm",
+    "incorrect_answers": ["24 cm", "32 cm", "20 cm", "30 cm", "36 cm"]
+  },
+  {
+    "question": "Find the area of a trapezium with parallel sides 5 m and 9 m, and height 6 m.",
+    "correct_answer": "42 m²",
+    "incorrect_answers": ["40 m²", "36 m²", "44 m²", "30 m²", "50 m²"]
+  },
+  {
+    "question": "Calculate the perimeter of an isosceles triangle with equal sides 7 cm and base 10 cm.",
+    "correct_answer": "24 cm",
+    "incorrect_answers": ["14 cm", "18 cm", "20 cm", "26 cm", "28 cm"]
+  },
+  {
+    "question": "Find the area of an isosceles triangle with equal sides 5 cm and included angle 60°. (Use area = (1/2) × a² × sinθ; sin60° ≈ 0.866.)",
+    "correct_answer": "10.825 cm²",
+    "incorrect_answers": ["12.5 cm²", "8.66 cm²", "15 cm²", "9 cm²", "14 cm²"]
+  }
+]
