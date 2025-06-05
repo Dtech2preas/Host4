@@ -283,5 +283,795 @@
     "question": "Consider the sequence: 1, 2, 4, 7, 11, 16, ... where differences increase by 1. What is the 7th term?",
     "correct_answer": "22",
     "incorrect_answers": ["21", "23", "24", "20", "19"]
+  },
+{
+    "question": "Which of the following is a rational number?",
+    "correct_answer": "3/4",
+    "incorrect_answers": ["√2", "π", "e", "√5", "ln(2)"]
+  },
+  {
+    "question": "Which set includes all whole numbers and their negatives?",
+    "correct_answer": "Integers",
+    "incorrect_answers": ["Natural numbers", "Rational numbers", "Irrational numbers", "Real numbers", "Complex numbers"]
+  },
+  {
+    "question": "Which number is NOT a whole number?",
+    "correct_answer": "-1",
+    "incorrect_answers": ["0", "1", "2", "10", "100"]
+  },
+  {
+    "question": "Which of the following is an irrational number?",
+    "correct_answer": "√2",
+    "incorrect_answers": ["3/5", "2", "4.75", "6", "1/2"]
+  },
+  {
+    "question": "What is the smallest natural number?",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "-1", "2", "10", "100"]
+  },
+  {
+    "question": "What is the HCF of 18 and 24?",
+    "correct_answer": "6",
+    "incorrect_answers": ["3", "12", "9", "2", "8"]
+  },
+  {
+    "question": "What is the LCM of 5 and 12?",
+    "correct_answer": "60",
+    "incorrect_answers": ["30", "120", "10", "20", "6"]
+  },
+  {
+    "question": "What are the prime factors of 30?",
+    "correct_answer": "2, 3, 5",
+    "incorrect_answers": ["2, 5, 6", "3, 5, 6", "2, 3, 6", "3, 4, 5", "2, 4, 5"]
+  },
+  {
+    "question": "Which method is used to find the HCF using prime factorisation?",
+    "correct_answer": "Take the lowest powers of common prime factors",
+    "incorrect_answers": ["Take the highest powers of all prime factors", "Multiply all prime factors", "Divide the numbers", "Add the prime factors", "Subtract the smallest factor"]
+  },
+  {
+    "question": "What is the LCM of 8 and 12 using prime factorisation?",
+    "correct_answer": "24",
+    "incorrect_answers": ["96", "12", "8", "16", "18"]
+  },
+  {
+    "question": "If a car travels 180 km in 3 hours, what is its speed?",
+    "correct_answer": "60 km/h",
+    "incorrect_answers": ["90 km/h", "30 km/h", "45 km/h", "120 km/h", "15 km/h"]
+  },
+  {
+    "question": "Which of the following is a direct proportion?",
+    "correct_answer": "The cost increases with quantity bought",
+    "incorrect_answers": ["Work done decreases with more workers", "Speed decreases with time", "Water evaporates as time passes", "Battery drains slower with use", "Weight decreases with exercise"]
+  },
+  {
+    "question": "What is the ratio of 4:12 in simplest form?",
+    "correct_answer": "1:3",
+    "incorrect_answers": ["2:3", "1:4", "2:4", "3:4", "1:2"]
+  },
+  {
+    "question": "If 3 pens cost R18, how much do 5 pens cost at the same rate?",
+    "correct_answer": "R30",
+    "incorrect_answers": ["R27", "R28", "R25", "R24", "R35"]
+  },
+  {
+    "question": "If 2 workers take 4 days to complete a task, how many days will 4 workers take (indirect proportion)?",
+    "correct_answer": "2 days",
+    "incorrect_answers": ["4 days", "6 days", "8 days", "3 days", "1 day"]
+  },
+  {
+    "question": "If a salesperson earns 10% commission on R5000 sales, how much is the commission?",
+    "correct_answer": "R500",
+    "incorrect_answers": ["R50", "R400", "R450", "R550", "R600"]
+  },
+  {
+    "question": "What is the total rental cost for R2,500 per month for 6 months?",
+    "correct_answer": "R15,000",
+    "incorrect_answers": ["R14,000", "R16,000", "R12,000", "R18,000", "R13,000"]
+  },
+  {
+    "question": "What is the compound interest on R1000 for 2 years at 10% p.a. compounded annually?",
+    "correct_answer": "R210",
+    "incorrect_answers": ["R200", "R100", "R220", "R150", "R250"]
+  },
+  {
+    "question": "If you buy an item for R800 and pay 15% VAT, what is the total cost?",
+    "correct_answer": "R920",
+    "incorrect_answers": ["R880", "R890", "R810", "R950", "R840"]
+  },
+  {
+    "question": "You receive 25% off a R1200 item. What is the final price?",
+    "correct_answer": "R900",
+    "incorrect_answers": ["R950", "R1000", "R850", "R875", "R925"]
+  },
+  {
+    "question": "Which of the following is a whole number?",
+    "correct_answer": "0",
+    "incorrect_answers": ["-2", "1.5", "π", "-3", "√2"]
+  },
+  {
+    "question": "What is 15% of R600?",
+    "correct_answer": "R90",
+    "incorrect_answers": ["R60", "R75", "R120", "R100", "R80"]
+  },
+  {
+    "question": "What is the next prime number after 7?",
+    "correct_answer": "11",
+    "incorrect_answers": ["9", "10", "13", "15", "12"]
+  },
+  {
+    "question": "Which of the following is a multiple of both 3 and 4?",
+    "correct_answer": "12",
+    "incorrect_answers": ["6", "8", "9", "16", "18"]
+  },
+  {
+    "question": "What is 20% of R450?",
+    "correct_answer": "R90",
+    "incorrect_answers": ["R80", "R100", "R70", "R60", "R85"]
+  },
+  {
+    "question": "A loan of R1000 grows to R1210 in 2 years. What is the total interest?",
+    "correct_answer": "R210",
+    "incorrect_answers": ["R200", "R220", "R190", "R250", "R180"]
+  },
+  {
+    "question": "Simplify the ratio 18:24",
+    "correct_answer": "3:4",
+    "incorrect_answers": ["6:8", "2:3", "4:3", "3:5", "2:4"]
+  },
+  {
+    "question": "Which number is both a factor of 36 and a multiple of 3?",
+    "correct_answer": "6",
+    "incorrect_answers": ["7", "9", "5", "10", "12"]
+  },
+  {
+    "question": "The LCM of 3, 4, and 6 is:",
+    "correct_answer": "12",
+    "incorrect_answers": ["6", "24", "18", "36", "10"]
+  },
+  {
+    "question": "The HCF of 16 and 24 is:",
+    "correct_answer": "8",
+    "incorrect_answers": ["4", "6", "12", "10", "16"]
+  },
+  {
+    "question": "Which is the smallest positive integer that is divisible by both 6 and 8?",
+    "correct_answer": "24",
+    "incorrect_answers": ["18", "30", "36", "48", "12"]
+  },
+  {
+    "question": "Which of these is NOT a rational number?",
+    "correct_answer": "√3",
+    "incorrect_answers": ["0.75", "3", "7/8", "0", "-2"]
+  },
+  {
+    "question": "Which number is a multiple of 7 and 5?",
+    "correct_answer": "35",
+    "incorrect_answers": ["25", "45", "30", "40", "20"]
+  },
+  {
+    "question": "If a rental is R1200 per month, what is the total for a year?",
+    "correct_answer": "R14,400",
+    "incorrect_answers": ["R12,000", "R13,000", "R15,000", "R14,000", "R12,500"]
+  },
+  {
+    "question": "A discount of 10% on R350 is:",
+    "correct_answer": "R35",
+    "incorrect_answers": ["R45", "R30", "R40", "R20", "R25"]
+  },
+  {
+    "question": "What is the prime factorisation of 36?",
+    "correct_answer": "2² × 3²",
+    "incorrect_answers": ["2 × 3 × 6", "2³ × 3", "3² × 6", "2 × 3⁴", "6²"]
+  },
+  {
+    "question": "How many whole numbers are there between 1 and 10?",
+    "correct_answer": "8",
+    "incorrect_answers": ["9", "7", "10", "6", "5"]
+  },
+  {
+    "question": "The value of 25% of R800 is:",
+    "correct_answer": "R200",
+    "incorrect_answers": ["R250", "R180", "R220", "R190", "R210"]
+  },
+{
+    "question": "What is (-8) + 5?",
+    "correct_answer": "-3",
+    "incorrect_answers": ["3", "-13", "13", "-2", "2"]
+  },
+  {
+    "question": "What is 7 − (−4)?",
+    "correct_answer": "11",
+    "incorrect_answers": ["3", "-11", "-3", "7", "4"]
+  },
+  {
+    "question": "Calculate (−6) × 9.",
+    "correct_answer": "−54",
+    "incorrect_answers": ["54", "−15", "15", "−45", "45"]
+  },
+  {
+    "question": "Compute (−48) ÷ 6.",
+    "correct_answer": "−8",
+    "incorrect_answers": ["8", "−6", "6", "−12", "12"]
+  },
+  {
+    "question": "Simplify: −3 + (−7).",
+    "correct_answer": "−10",
+    "incorrect_answers": ["10", "4", "−4", "−21", "21"]
+  },
+  {
+    "question": "Simplify: −12 − (−5).",
+    "correct_answer": "−7",
+    "incorrect_answers": ["7", "17", "−17", "−5", "5"]
+  },
+  {
+    "question": "Calculate: 0 − 9.",
+    "correct_answer": "−9",
+    "incorrect_answers": ["9", "0", "−8", "8", "1"]
+  },
+  {
+    "question": "Compute: −15 × (−2).",
+    "correct_answer": "30",
+    "incorrect_answers": ["−30", "−17", "17", "−13", "13"]
+  },
+  {
+    "question": "Simplify: −36 ÷ (−6).",
+    "correct_answer": "6",
+    "incorrect_answers": ["−6", "−30", "30", "−1", "1"]
+  },
+  {
+    "question": "What is the result of (−1) × 7?",
+    "correct_answer": "−7",
+    "incorrect_answers": ["7", "−1", "1", "0", "14"]
+  },
+  {
+    "question": "Calculate: (−3) + 5 × (−2).",
+    "correct_answer": "−13",
+    "incorrect_answers": ["−7", "7", "13", "−1", "1"]
+  },
+  {
+    "question": "Simplify: (−8) ÷ 4 + 6.",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "2", "−2", "8", "−8"]
+  },
+  {
+    "question": "Evaluate: (−9) − 3 × (−2).",
+    "correct_answer": "−3",
+    "incorrect_answers": ["3", "−15", "15", "−12", "12"]
+  },
+  {
+    "question": "Compute: (−7) × [2 + (−5)].",
+    "correct_answer": "21",
+    "incorrect_answers": ["−21", "−1", "1", "−35", "35"]
+  },
+  {
+    "question": "Simplify: [(−12) ÷ (−3)] − 4.",
+    "correct_answer": "0",
+    "incorrect_answers": ["4", "−4", "−3", "3", "1"]
+  },
+  {
+    "question": "Calculate: 5 + (−2) × 4.",
+    "correct_answer": "−3",
+    "incorrect_answers": ["3", "−8", "8", "−5", "5"]
+  },
+  {
+    "question": "Evaluate: (−10) + 8 ÷ (−4).",
+    "correct_answer": "−12",
+    "incorrect_answers": ["12", "−8", "8", "−2", "2"]
+  },
+  {
+    "question": "Compute: (−6) × (−3) − 9.",
+    "correct_answer": "9",
+    "incorrect_answers": ["−9", "27", "−27", "6", "−6"]
+  },
+  {
+    "question": "Compute: (−20) ÷ [(−5) + 4].",
+    "correct_answer": "20",
+    "incorrect_answers": ["−20", "−4", "4", "5", "−5"]
+  },
+  {
+    "question": "Calculate: [(−3) + (−4)] × [(−2) − 1].",
+    "correct_answer": "21",
+    "incorrect_answers": ["−21", "7", "−7", "3", "−3"]
+  },
+  {
+    "question": "What is (−3)²?",
+    "correct_answer": "9",
+    "incorrect_answers": ["−9", "−6", "6", "3", "−3"]
+  },
+  {
+    "question": "Compute the cube of (−2).",
+    "correct_answer": "−8",
+    "incorrect_answers": ["8", "4", "−4", "2", "−2"]
+  },
+  {
+    "question": "What is √49?",
+    "correct_answer": "7",
+    "incorrect_answers": ["−7", "−49", "49", "−1", "1"]
+  },
+  {
+    "question": "What is the square root of 81?",
+    "correct_answer": "9",
+    "incorrect_answers": ["−9", "8", "−8", "81", "−81"]
+  },
+  {
+    "question": "Compute the cube root of −27.",
+    "correct_answer": "−3",
+    "incorrect_answers": ["3", "−9", "9", "−1", "1"]
+  },
+  {
+    "question": "What is (−4)³?",
+    "correct_answer": "−64",
+    "incorrect_answers": ["64", "−16", "16", "−8", "8"]
+  },
+  {
+    "question": "Simplify: √36.",
+    "correct_answer": "6",
+    "incorrect_answers": ["−6", "36", "−36", "3", "−3"]
+  },
+  {
+    "question": "Calculate: (−5)² + (−2)³.",
+    "correct_answer": "17",
+    "incorrect_answers": ["−17", "−33", "33", "13", "−13"]
+  },
+  {
+    "question": "What is √(144) − 5?",
+    "correct_answer": "7",
+    "incorrect_answers": ["−7", "17", "−17", "13", "−13"]
+  },
+  {
+    "question": "Compute: 3 × (−4)³.",
+    "correct_answer": "−192",
+    "incorrect_answers": ["192", "−12", "12", "−64", "64"]
+  },
+  {
+    "question": "Which property justifies 3 + 5 = 5 + 3?",
+    "correct_answer": "Commutative property of addition",
+    "incorrect_answers": ["Associative property of addition", "Distributive property", "Commutative property of multiplication", "Associative property of multiplication", "Additive inverse property"]
+  },
+  {
+    "question": "Which property justifies (2 + 3) + 4 = 2 + (3 + 4)?",
+    "correct_answer": "Associative property of addition",
+    "incorrect_answers": ["Commutative property of addition", "Distributive property", "Associative property of multiplication", "Commutative property of multiplication", "Multiplicative inverse property"]
+  },
+  {
+    "question": "Which property is illustrated by 4 × (2 + 3) = (4 × 2) + (4 × 3)?",
+    "correct_answer": "Distributive property",
+    "incorrect_answers": ["Commutative property of multiplication", "Associative property of addition", "Associative property of multiplication", "Commutative property of addition", "Additive inverse property"]
+  },
+  {
+    "question": "Which property shows that (−7) + 0 = −7?",
+    "correct_answer": "Additive identity property",
+    "incorrect_answers": ["Multiplicative identity property", "Commutative property", "Associative property", "Distributive property", "Additive inverse property"]
+  },
+  {
+    "question": "Which property shows that 1 × (−9) = −9?",
+    "correct_answer": "Multiplicative identity property",
+    "incorrect_answers": ["Additive identity property", "Distributive property", "Commutative property", "Associative property", "Multiplicative inverse property"]
+  },
+  {
+    "question": "Which property shows that (−3) + 3 = 0?",
+    "correct_answer": "Additive inverse property",
+    "incorrect_answers": ["Additive identity property", "Multiplicative identity", "Commutative property", "Associative property", "Distributive property"]
+  },
+  {
+    "question": "What is the additive inverse of −12?",
+    "correct_answer": "12",
+    "incorrect_answers": ["−12", "−1", "1", "0", "−11"]
+  },
+  {
+    "question": "What is the multiplicative inverse of 5?",
+    "correct_answer": "1/5",
+    "incorrect_answers": ["5", "−5", "−1/5", "0", "1"]
+  },
+  {
+    "question": "What is the multiplicative inverse of −3?",
+    "correct_answer": "−1/3",
+    "incorrect_answers": ["1/3", "−3", "3", "0", "−1"]
+  },
+  {
+    "question": "Which property justifies 6 × 7 = 7 × 6?",
+    "correct_answer": "Commutative property of multiplication",
+    "incorrect_answers": ["Associative property of multiplication", "Distributive property", "Commutative property of addition", "Associative property of addition", "Multiplicative inverse property"]
+  },
+  {
+    "question": "Which property justifies (3 × 4) × 5 = 3 × (4 × 5)?",
+    "correct_answer": "Associative property of multiplication",
+    "incorrect_answers": ["Commutative property of addition", "Commutative property of multiplication", "Distributive property", "Associative property of addition", "Multiplicative identity property"]
+  },
+  {
+    "question": "Which property allows you to expand 2 × (x + 3) into 2x + 6?",
+    "correct_answer": "Distributive property",
+    "incorrect_answers": ["Commutative property", "Associative property", "Additive identity", "Additive inverse", "Multiplicative identity"]
+  },
+  {
+    "question": "Compute: (−2) × (−2) × (−2).",
+    "correct_answer": "−8",
+    "incorrect_answers": ["8", "4", "−4", "−6", "6"]
+  },
+  {
+    "question": "What is (−7)² − (−3)²?",
+    "correct_answer": "40",
+    "incorrect_answers": ["−40", "42", "−42", "36", "−36"]
+  },
+  {
+    "question": "Evaluate: √64 + (−5).",
+    "correct_answer": "3",
+    "incorrect_answers": ["−3", "13", "−13", "5", "−5"]
+  },
+  {
+    "question": "What is the cube root of 64?",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "8", "−8", "16", "−16"]
+  },
+  {
+    "question": "Simplify: (−9)² + (−9)³.",
+    "correct_answer": "−648",
+    "incorrect_answers": ["648", "−810", "810", "72", "−72"]
+  },
+  {
+    "question": "Compute: √(81) ÷ 3.",
+    "correct_answer": "3",
+    "incorrect_answers": ["−3", "27", "−27", "6", "−6"]
+  },
+  {
+    "question": "What is (−4)³ + (−4)²?",
+    "correct_answer": "−48",
+    "incorrect_answers": ["48", "−80", "80", "−16", "16"]
+  },
+  {
+    "question": "Find: √49 × (−2).",
+    "correct_answer": "−14",
+    "incorrect_answers": ["14", "−7", "7", "−49", "49"]
+  },
+  {
+    "question": "Compute: cube root of 27 plus square root of 16.",
+    "correct_answer": "7",
+    "incorrect_answers": ["−7", "1", "−1", "6", "8"]
+  },
+  {
+    "question": "What is (−5) × √25?",
+    "correct_answer": "−25",
+    "incorrect_answers": ["25", "−5", "5", "−125", "125"]
+  },
+  {
+    "question": "Simplify: (−2)² × (−3)².",
+    "correct_answer": "36",
+    "incorrect_answers": ["−36", "−7", "7", "−12", "12"]
+  },
+  {
+    "question": "Calculate: √(144) − cube root of 8.",
+    "correct_answer": "10",
+    "incorrect_answers": ["−10", "14", "−14", "−8", "8"]
+  },
+  {
+    "question": "Evaluate: (−1)³ + (−1)² + (−1).",
+    "correct_answer": "−1",
+    "incorrect_answers": ["1", "0", "2", "−2", "3"]
+  },
+  {
+    "question": "Find: √(100) ÷ (−5).",
+    "correct_answer": "−2",
+    "incorrect_answers": ["2", "−5", "5", "−10", "10"]
+  },
+  {
+    "question": "Compute: (−8) ÷ cube root of (−8).",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "2", "−2", "8", "−8"]
+  },
+  {
+    "question": "Simplify: (−10) + (−10)².",
+    "correct_answer": "90",
+    "incorrect_answers": ["−90", "110", "−110", "10", "−10"]
+  },
+  {
+    "question": "What is cube root of 125 − (−5)?",
+    "correct_answer": "10",
+    "incorrect_answers": ["−10", "0", "−5", "5", "15"]
+  },
+  {
+    "question": "Calculate: (−3)² + (−3)³ + √9.",
+    "correct_answer": "−15",
+    "incorrect_answers": ["15", "−3", "3", "−9", "9"]
+  },
+{
+    "question": "Simplify: 2³ × 2⁴.",
+    "correct_answer": "128",
+    "incorrect_answers": ["14", "256", "64", "32", "48"]
+  },
+  {
+    "question": "Simplify: 5⁶ ÷ 5².",
+    "correct_answer": "625",
+    "incorrect_answers": ["125", "2500", "25", "120", "150"]
+  },
+  {
+    "question": "Simplify: (3²)³.",
+    "correct_answer": "729",
+    "incorrect_answers": ["216", "81", "243", "512", "343"]
+  },
+  {
+    "question": "Simplify: (2 × 4)².",
+    "correct_answer": "64",
+    "incorrect_answers": ["16", "32", "36", "48", "128"]
+  },
+  {
+    "question": "What is 7⁰?",
+    "correct_answer": "1",
+    "incorrect_answers": ["7", "0", "-1", "49", "8"]
+  },
+  {
+    "question": "Simplify: 10³ × 10⁻².",
+    "correct_answer": "10",
+    "incorrect_answers": ["1", "100", "1000", "0.1", "50"]
+  },
+  {
+    "question": "Simplify: 4⁻¹.",
+    "correct_answer": "1/4",
+    "incorrect_answers": ["-1/4", "4", "1/2", "2", "4/1"]
+  },
+  {
+    "question": "Simplify: 2⁻³ × 2⁵.",
+    "correct_answer": "4",
+    "incorrect_answers": ["-4", "8", "2", "1/4", "10"]
+  },
+  {
+    "question": "Simplify: (−3)³ × (−3)².",
+    "correct_answer": "−243",
+    "incorrect_answers": ["243", "−125", "125", "−81", "81"]
+  },
+  {
+    "question": "Simplify: (−2)⁴ ÷ (−2)².",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "16", "−16", "2", "−2"]
+  },
+  {
+    "question": "Simplify: (5⁰) × (5³).",
+    "correct_answer": "125",
+    "incorrect_answers": ["25", "120", "100", "75", "150"]
+  },
+  {
+    "question": "Simplify: (7²)⁰.",
+    "correct_answer": "1",
+    "incorrect_answers": ["7", "49", "0", "2", "14"]
+  },
+  {
+    "question": "Simplify: (2 × 3)³.",
+    "correct_answer": "216",
+    "incorrect_answers": ["64", "36", "72", "27", "54"]
+  },
+  {
+    "question": "What is (−1)⁵?",
+    "correct_answer": "−1",
+    "incorrect_answers": ["1", "-5", "5", "−5", "0"]
+  },
+  {
+    "question": "What is 9¹?",
+    "correct_answer": "9",
+    "incorrect_answers": ["1", "81", "3", "−9", "0"]
+  },
+  {
+    "question": "Simplify: 3⁴ ÷ 3⁴.",
+    "correct_answer": "1",
+    "incorrect_answers": ["3", "9", "27", "81", "0"]
+  },
+  {
+    "question": "Evaluate: 6² + 6².",
+    "correct_answer": "72",
+    "incorrect_answers": ["36", "48", "64", "90", "12"]
+  },
+  {
+    "question": "Simplify: 8⁰ + 5.",
+    "correct_answer": "6",
+    "incorrect_answers": ["5", "8", "4", "1", "0"]
+  },
+  {
+    "question": "Simplify: 2³ × 3².",
+    "correct_answer": "72",
+    "incorrect_answers": ["48", "32", "18", "36", "12"]
+  },
+  {
+    "question": "Simplify: (4 × (−2))².",
+    "correct_answer": "64",
+    "incorrect_answers": ["16", "−16", "32", "48", "256"]
+  },
+  {
+    "question": "Simplify: (−2 × −3)³.",
+    "correct_answer": "216",
+    "incorrect_answers": ["−216", "−8", "8", "27", "64"]
+  },
+  {
+    "question": "What is 10⁻²?",
+    "correct_answer": "1/100",
+    "incorrect_answers": ["1/10", "1/1000", "10", "100", "0"]
+  },
+  {
+    "question": "Simplify: (1/2)².",
+    "correct_answer": "1/4",
+    "incorrect_answers": ["1/2", "1/8", "1/16", "2", "4"]
+  },
+  {
+    "question": "Simplify: 2⁵ ÷ 2² × 2³.",
+    "correct_answer": "64",
+    "incorrect_answers": ["32", "16", "8", "128", "48"]
+  },
+  {
+    "question": "Simplify: (3³) ÷ (3¹) + 3².",
+    "correct_answer": "18",
+    "incorrect_answers": ["9", "15", "27", "21", "6"]
+  },
+  {
+    "question": "Simplify: (−2)³ + (−2)².",
+    "correct_answer": "−4",
+    "incorrect_answers": ["4", "−6", "6", "−8", "8"]
+  },
+  {
+    "question": "Simplify: 7³ ÷ (7⁰ × 7¹).",
+    "correct_answer": "49",
+    "incorrect_answers": ["7", "1", "343", "21", "14"]
+  },
+  {
+    "question": "Simplify: (5²) × (2²).",
+    "correct_answer": "100",
+    "incorrect_answers": ["20", "25", "40", "50", "10"]
+  },
+  {
+    "question": "Simplify: (−4)² − (−4)³.",
+    "correct_answer": "80",
+    "incorrect_answers": ["−80", "−48", "48", "16", "−16"]
+  },
+  {
+    "question": "Simplify: 6¹ × 6⁰.",
+    "correct_answer": "6",
+    "incorrect_answers": ["1", "36", "0", "5", "12"]
+  },
+  {
+    "question": "Simplify: (10² × 10⁻¹) ÷ 10.",
+    "correct_answer": "1",
+    "incorrect_answers": ["10", "100", "0.1", "11", "9"]
+  },
+  {
+    "question": "Simplify: (−5)⁰ + (−5)¹.",
+    "correct_answer": "−4",
+    "incorrect_answers": ["1", "−6", "0", "4", "−5"]
+  },
+  {
+    "question": "Simplify: 2⁴ − 2³.",
+    "correct_answer": "8",
+    "incorrect_answers": ["16", "4", "2", "12", "6"]
+  },
+  {
+    "question": "Simplify: 3 × 3².",
+    "correct_answer": "27",
+    "incorrect_answers": ["9", "18", "12", "36", "6"]
+  },
+  {
+    "question": "Simplify: 4 × 4² ÷ 4³.",
+    "correct_answer": "1",
+    "incorrect_answers": ["4", "16", "64", "0", "2"]
+  },
+  {
+    "question": "Simplify: (−3)² × (−3)⁰.",
+    "correct_answer": "9",
+    "incorrect_answers": ["−9", "1", "0", "−3", "3"]
+  },
+  {
+    "question": "Simplify: (2³)² ÷ (2⁴).",
+    "correct_answer": "4",
+    "incorrect_answers": ["16", "8", "2", "32", "1"]
+  },
+  {
+    "question": "Simplify: (3² × 3³) ÷ 3⁴.",
+    "correct_answer": "3",
+    "incorrect_answers": ["1", "9", "27", "81", "0"]
+  },
+  {
+    "question": "What is (2 × 5)⁰?",
+    "correct_answer": "1",
+    "incorrect_answers": ["10", "0", "2", "5", "25"]
+  },
+  {
+    "question": "What is (−7)¹?",
+    "correct_answer": "−7",
+    "incorrect_answers": ["7", "1", "−1", "49", "0"]
+  },
+  {
+    "question": "What is 1⁵?",
+    "correct_answer": "1",
+    "incorrect_answers": ["5", "0", "−1", "10", "−5"]
+  },
+  {
+    "question": "What is (−1)⁴?",
+    "correct_answer": "1",
+    "incorrect_answers": ["−1", "−4", "4", "0", "−2"]
+  },
+  {
+    "question": "What is (−1)³?",
+    "correct_answer": "−1",
+    "incorrect_answers": ["1", "−3", "3", "0", "−2"]
+  },
+  {
+    "question": "Simplify: (8² − 8¹) ÷ 8.",
+    "correct_answer": "7",
+    "incorrect_answers": ["8", "15", "1", "0", "9"]
+  },
+  {
+    "question": "Simplify: 3⁰ + 3¹ + 3².",
+    "correct_answer": "13",
+    "incorrect_answers": ["9", "12", "7", "11", "10"]
+  },
+  {
+    "question": "Simplify: 5³ − (5² + 5¹).",
+    "correct_answer": "95",
+    "incorrect_answers": ["100", "75", "85", "115", "125"]
+  },
+  {
+    "question": "Simplify: 2³ + 2⁻¹.",
+    "correct_answer": "8.5",
+    "incorrect_answers": ["8", "4", "4.5", "9", "7.5"]
+  },
+  {
+    "question": "Simplify: (−2)² + (−2)⁻¹.",
+    "correct_answer": "3.5",
+    "incorrect_answers": ["4", "2.5", "−3.5", "−4", "−2.5"]
+  },
+  {
+    "question": "Simplify: (5³) ÷ (5⁻¹).",
+    "correct_answer": "625",
+    "incorrect_answers": ["125", "25", "100", "50", "5"]
+  },
+  {
+    "question": "Simplify: (−3)² ÷ (−3)⁻².",
+    "correct_answer": "81",
+    "incorrect_answers": ["9", "27", "−27", "−9", "−81"]
+  },
+  {
+    "question": "Simplify: (4⁻¹) + (4¹).",
+    "correct_answer": "4.25",
+    "incorrect_answers": ["4", "0.25", "5", "4.5", "3.75"]
+  },
+  {
+    "question": "Simplify: (2⁻²) × (2³).",
+    "correct_answer": "2",
+    "incorrect_answers": ["8", "1/8", "4", "1/2", "−2"]
+  },
+  {
+    "question": "Simplify: (−6)⁻¹.",
+    "correct_answer": "−1/6",
+    "incorrect_answers": ["1/6", "−6", "6", "0", "−1"]
+  },
+  {
+    "question": "Simplify: (−2)⁰ + (−2)⁻².",
+    "correct_answer": "1.25",
+    "incorrect_answers": ["1", "0.75", "−1.25", "−1", "1.5"]
+  },
+  {
+    "question": "Simplify: (10⁻¹) × (10²).",
+    "correct_answer": "10",
+    "incorrect_answers": ["1", "100", "0.1", "11", "5"]
+  },
+  {
+    "question": "Simplify: (3⁴) ÷ (3² × 3⁻¹).",
+    "correct_answer": "27",
+    "incorrect_answers": ["9", "3", "81", "1", "0"]
+  },
+  {
+    "question": "Simplify: ((−2)³)².",
+    "correct_answer": "64",
+    "incorrect_answers": ["−64", "16", "−16", "8", "−8"]
+  },
+  {
+    "question": "Simplify: (2 × (−3))² ÷ (−3)².",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "36", "9", "2", "−2"]
+  },
+  {
+    "question": "Simplify: ((−5) × 2)³.",
+    "correct_answer": "−1000",
+    "incorrect_answers": ["1000", "−125", "125", "−250", "250"]
+  },
+  {
+    "question": "Simplify: (−4)⁻².",
+    "correct_answer": "1/16",
+    "incorrect_answers": ["−1/16", "1/8", "−1/8", "16", "−16"]
   }
 ]
