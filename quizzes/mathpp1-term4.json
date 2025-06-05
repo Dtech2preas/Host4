@@ -1,280 +1,5 @@
 [
   {
-    "question": "Two lines are perpendicular. What is the measure of each angle at their intersection?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Line AB is perpendicular to line CD at point O. What is the measure of ∠AOC if point A, O, C are collinear?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "If line l is perpendicular to line m, and ∠1 is the angle between them, what is ∠2 adjacent to ∠1?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Two perpendicular lines form four angles. What is the sum of any two adjacent angles?",
-    "correct_answer": "180°",
-    "incorrect_answers": ["90°", "360°", "120°", "270°", "60°"]
-  },
-  {
-    "question": "If AB ⟂ CD, and ∠BOC is a right angle, what is ∠AOB?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["60°", "45°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "A line is drawn perpendicular to a horizontal line. What is the angle between them?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Two roads cross at right angles. What type of angle do they form?",
-    "correct_answer": "Right angle",
-    "incorrect_answers": ["Acute angle", "Obtuse angle", "Straight angle", "Reflex angle", "Zero angle"]
-  },
-  {
-    "question": "If lines AB and CD are perpendicular, and ∠AOD is 90°, what is ∠BOD?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Two perpendicular lines intersect. What is the measure of the angle opposite a right angle?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "If line XY ⟂ line YZ at Y, what is ∠XYZ?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Two lines intersect at a point and form angles of 50° and x. If they are perpendicular, what is x?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["50°", "40°", "60°", "30°", "120°"]
-  },
-  {
-    "question": "Lines AB and EF intersect at G. If AB ⟂ EF, what is ∠AGF if A, G, F are collinear?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Two perpendicular lines form a straight line across them. What is the angle between the straight line and one of the perpendicular arms?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "If line l ⟂ line m at point P, what is ∠QPR where Q, P, R are points on l and m respectively?",
-    "correct_answer": "90°",
-    "incorrect_answers": ["45°", "60°", "120°", "30°", "180°"]
-  },
-  {
-    "question": "Two intersecting lines form four angles. If one is 90°, what are the other three angles?",
-    "correct_answer": "90°, 90°, 90°",
-    "incorrect_answers": ["45°, 45°, 45°", "60°, 60°, 60°", "120°, 120°, 120°", "90°, 90°, 180°", "45°, 45°, 90°"]
-  },
-  {
-    "question": "Two lines intersect at point O forming angles 70° and 110°. Are the lines perpendicular?",
-    "correct_answer": "No",
-    "incorrect_answers": ["Yes", "Only if 70° = 90°", "Only if 110° = 90°", "Only if 70° + 20° = 90°", "Only if 110° + 20° = 90°"]
-  },
-  {
-    "question": "Two lines are perpendicular. What is the relationship between any adjacent angle and the opposite ‘vertical’ angle?",
-    "correct_answer": "They are equal (both 90°).",
-    "incorrect_answers": ["One is twice the other", "They add to 90°", "They add to 180°", "One is half the other", "They add to 360°"]
-  },
-  {
-    "question": "Two lines cross. One angle is 130°. What is the vertical angle opposite to it?",
-    "correct_answer": "130°",
-    "incorrect_answers": ["50°", "40°", "90°", "180°", "100°"]
-  },
-  {
-    "question": "Two intersecting lines form angles of 40° and x. What is x if the lines form supplementary pairs?",
-    "correct_answer": "140°",
-    "incorrect_answers": ["40°", "50°", "90°", "60°", "100°"]
-  },
-  {
-    "question": "If two lines intersect and ∠1 = 120°, what is the angle adjacent to ∠1 on the straight line?",
-    "correct_answer": "60°",
-    "incorrect_answers": ["120°", "30°", "90°", "45°", "100°"]
-  },
-  {
-    "question": "Two lines intersect at point P creating angles of 70° and 110°. What is the angle vertical to 70°?",
-    "correct_answer": "70°",
-    "incorrect_answers": ["110°", "90°", "60°", "40°", "50°"]
-  },
-  {
-    "question": "When two lines intersect, what is the sum of two adjacent angles on a straight line?",
-    "correct_answer": "180°",
-    "incorrect_answers": ["90°", "360°", "120°", "270°", "60°"]
-  },
-  {
-    "question": "When two lines intersect, the vertical angles are ________.",
-    "correct_answer": "Equal",
-    "incorrect_answers": ["Supplementary", "Complementary", "Opposite but different", "Half the sum", "Twice each other"]
-  },
-  {
-    "question": "If two lines intersect forming an angle of 80°, what is the opposite angle?",
-    "correct_answer": "80°",
-    "incorrect_answers": ["100°", "90°", "60°", "120°", "70°"]
-  },
-  {
-    "question": "Two lines intersect at point O, forming angles A and B that are vertical angles. If ∠A = 55°, what is ∠B?",
-    "correct_answer": "55°",
-    "incorrect_answers": ["125°", "45°", "90°", "60°", "50°"]
-  },
-  {
-    "question": "If two lines intersect and one angle is 100°, what is the other angle on the straight line?",
-    "correct_answer": "80°",
-    "incorrect_answers": ["100°", "90°", "60°", "70°", "120°"]
-  },
-  {
-    "question": "Two lines intersect forming four angles. If one is 45°, what is the angle adjacent to it?",
-    "correct_answer": "135°",
-    "incorrect_answers": ["45°", "90°", "180°", "60°", "30°"]
-  },
-  {
-    "question": "Lines l and m intersect. If one acute angle is 35°, what is its vertical angle?",
-    "correct_answer": "35°",
-    "incorrect_answers": ["145°", "55°", "90°", "180°", "75°"]
-  },
-  {
-    "question": "Lines l and m intersect. If one obtuse angle is 140°, what is the adjacent angle on the straight line?",
-    "correct_answer": "40°",
-    "incorrect_answers": ["140°", "90°", "60°", "100°", "120°"]
-  },
-  {
-    "question": "Lines l and m intersect at 60° in one region. What is the angle directly opposite?",
-    "correct_answer": "60°",
-    "incorrect_answers": ["120°", "90°", "30°", "180°", "100°"]
-  },
-  {
-    "question": "Lines l and m intersect. One angle measures 75°. What is the other three angles combined?",
-    "correct_answer": "285°",
-    "incorrect_answers": ["105°", "180°", "225°", "255°", "150°"]
-  },
-  {
-    "question": "Parallel lines l and m are cut by transversal t. If a corresponding angle is 65°, what is the corresponding angle on the other parallel line?",
-    "correct_answer": "65°",
-    "incorrect_answers": ["115°", "45°", "125°", "55°", "75°"]
-  },
-  {
-    "question": "Parallel lines l and m are cut by transversal t. If an alternate interior angle is 80°, what is its pair on the other side of the transversal?",
-    "correct_answer": "80°",
-    "incorrect_answers": ["100°", "60°", "90°", "70°", "120°"]
-  },
-  {
-    "question": "Parallel lines a and b are cut by transversal c. If an exterior angle is 50°, what is the interior angle on the same side of the transversal?",
-    "correct_answer": "130°",
-    "incorrect_answers": ["50°", "140°", "90°", "70°", "100°"]
-  },
-  {
-    "question": "If two parallel lines are cut by a transversal and one co-interior angle is 110°, what is the other co-interior angle on the same side?",
-    "correct_answer": "70°",
-    "incorrect_answers": ["110°", "90°", "60°", "100°", "50°"]
-  },
-  {
-    "question": "Parallel lines l and m are cut by transversal t. If a corresponding angle on l is 45°, what is the corresponding angle on m?",
-    "correct_answer": "45°",
-    "incorrect_answers": ["135°", "90°", "60°", "30°", "120°"]
-  },
-  {
-    "question": "Parallel lines p and q are cut by transversal r. If an alternate exterior angle is 75°, what is its matching alternate exterior angle?",
-    "correct_answer": "75°",
-    "incorrect_answers": ["105°", "45°", "90°", "30°", "120°"]
-  },
-  {
-    "question": "Parallel lines x and y are cut by transversal z. If angle 1 is 100° and is co-interior with angle 2 on the same side, what is angle 2?",
-    "correct_answer": "80°",
-    "incorrect_answers": ["100°", "90°", "60°", "120°", "70°"]
-  },
-  {
-    "question": "Parallel lines a and b are cut by transversal c. If angle p on a is 30° and is alternate interior to angle q on b, what is angle q?",
-    "correct_answer": "30°",
-    "incorrect_answers": ["150°", "60°", "90°", "45°", "120°"]
-  },
-  {
-    "question": "Lines l and m are parallel. Transversal t crosses them. If an interior angle on one has measure 55°, what is the adjacent interior angle on the same side?",
-    "correct_answer": "125°",
-    "incorrect_answers": ["55°", "90°", "60°", "45°", "100°"]
-  },
-  {
-    "question": "Lines l and m are parallel. Transversal t crosses them. If angle A is 40° (exterior), what is the corresponding interior angle at the far end on m?",
-    "correct_answer": "40°",
-    "incorrect_answers": ["140°", "60°", "50°", "80°", "100°"]
-  },
-  {
-    "question": "Lines l and m are parallel with transversal t. If angle 1 is 120° (alternate interior to angle 2), what is angle 2?",
-    "correct_answer": "120°",
-    "incorrect_answers": ["60°", "90°", "30°", "150°", "100°"]
-  },
-  {
-    "question": "Parallel lines p and q are cut by transversal r. If angle X on p is 70° and angle Y on q is a co-interior angle, what is angle Y?",
-    "correct_answer": "110°",
-    "incorrect_answers": ["70°", "90°", "60°", "120°", "50°"]
-  },
-  {
-    "question": "Parallel lines a and b are cut by a transversal. If one corresponding angle is 85°, what is its vertically opposite angle on the same intersection?",
-    "correct_answer": "85°",
-    "incorrect_answers": ["95°", "80°", "90°", "75°", "100°"]
-  },
-  {
-    "question": "In parallel lines m and n cut by transversal t, if ∠1 is 50° (inside left), what is ∠2 (alternate interior on right)?",
-    "correct_answer": "50°",
-    "incorrect_answers": ["130°", "40°", "90°", "60°", "100°"]
-  },
-  {
-    "question": "Parallel lines l and m cut by transversal t. If ∠P on l is 65° (exterior), what is the interior corresponding angle on m?",
-    "correct_answer": "65°",
-    "incorrect_answers": ["115°", "45°", "90°", "30°", "100°"]
-  },
-  {
-    "question": "Parallel lines p and q cut by transversal r. If ∠A on p is 110° (co-interior with ∠B on q), what is ∠B?",
-    "correct_answer": "70°",
-    "incorrect_answers": ["110°", "90°", "60°", "120°", "80°"]
-  },
-  {
-    "question": "Parallel lines x and y cut by transversal z. If ∠M on x is 25° (alternate exterior with ∠N on y), what is ∠N?",
-    "correct_answer": "25°",
-    "incorrect_answers": ["155°", "65°", "45°", "90°", "135°"]
-  },
-  {
-    "question": "Parallel lines a and b cut by transversal c. If ∠U on a is 140° (interior), what is ∠V on b co-interior with U?",
-    "correct_answer": "40°",
-    "incorrect_answers": ["140°", "90°", "60°", "100°", "120°"]
-  },
-  {
-    "question": "On parallel lines l and m, a transversal creates ∠Q of 95°. Which angle on the other parallel line is supplementary to Q on the same side?",
-    "correct_answer": "85°",
-    "incorrect_answers": ["95°", "90°", "60°", "45°", "100°"]
-  },
-  {
-    "question": "Parallel lines p and q are cut by a transversal. If ∠R on p is 35° (corresponding to ∠S on q), what is ∠S?",
-    "correct_answer": "35°",
-    "incorrect_answers": ["145°", "55°", "90°", "50°", "75°"]
-  },
-  {
-    "question": "Parallel lines a and b cut by transversal c. If ∠D on a is 47° (exterior), what is the interior alternate angle on b?",
-    "correct_answer": "47°",
-    "incorrect_answers": ["133°", "43°", "90°", "53°", "100°"]
-  },
-  {
-    "question": "Parallel lines x and y cut by z. If ∠1 is 82° (interior), what is the co-interior partner ∠2 on the same side?",
-    "correct_answer": "98°",
-    "incorrect_answers": ["82°", "90°", "78°", "100°", "60°"]
-  },
-  {
-    "question": "Parallel lines l and m cut by t. If ∠A on l is 55° (alternate interior to ∠B on m), what is ∠B?",
-    "correct_answer": "55°",
-    "incorrect_answers": ["125°", "35°", "90°", "65°", "100°"]
-  },
-  {
-    "question": "Parallel lines p and q cut by r. If ∠X on p is 20° (adjacent on the same intersection), what is its vertical angle?",
-    "correct_answer": "20°",
-    "incorrect_answers": ["160°", "70°", "90°", "40°", "45°"]
-  },
-{
     "question": "Calculate the perimeter of a rectangle with length 8 cm and width 5 cm.",
     "correct_answer": "26 cm",
     "incorrect_answers": ["13 cm", "40 cm", "30 cm", "20 cm", "24 cm"]
@@ -628,5 +353,300 @@
     "question": "Find the area of an isosceles triangle with equal sides 5 cm and included angle 60°. (Use area = (1/2) × a² × sinθ; sin60° ≈ 0.866.)",
     "correct_answer": "10.825 cm²",
     "incorrect_answers": ["12.5 cm²", "8.66 cm²", "15 cm²", "9 cm²", "14 cm²"]
+  },
+[{
+    "question": "Calculate the volume of a rectangular prism with length 5 cm, width 3 cm, and height 4 cm.",
+    "correct_answer": "60 cm³",
+    "incorrect_answers": ["12 cm³", "20 cm³", "15 cm³", "45 cm³", "48 cm³"]
+  },
+  {
+    "question": "Find the surface area of a rectangular prism with dimensions 6 cm × 2 cm × 4 cm.",
+    "correct_answer": "88 cm²",
+    "incorrect_answers": ["48 cm²", "76 cm²", "80 cm²", "96 cm²", "104 cm²"]
+  },
+  {
+    "question": "A rectangular box has volume 120 cm³. If its base measures 5 cm × 3 cm, what is its height?",
+    "correct_answer": "8 cm",
+    "incorrect_answers": ["4 cm", "6 cm", "10 cm", "5 cm", "2 cm"]
+  },
+  {
+    "question": "Calculate the volume of a rectangular prism whose volume is given by 2 m × 0.5 m × 1 m. Express your answer in m³.",
+    "correct_answer": "1 m³",
+    "incorrect_answers": ["2 m³", "0.5 m³", "0.25 m³", "1.5 m³", "0.2 m³"]
+  },
+  {
+    "question": "Find the total surface area of a cube with side length 4 cm.",
+    "correct_answer": "96 cm²",
+    "incorrect_answers": ["48 cm²", "64 cm²", "72 cm²", "80 cm²", "120 cm²"]
+  },
+  {
+    "question": "A rectangular prism has surface area 94 cm². If its length is 5 cm, width 2 cm, and height h, what is h?",
+    "correct_answer": "3 cm",
+    "incorrect_answers": ["1 cm", "2 cm", "4 cm", "5 cm", "6 cm"]
+  },
+  {
+    "question": "Calculate the volume of a rectangular prism with length 10 cm, width 4 cm, and height 2 cm.",
+    "correct_answer": "80 cm³",
+    "incorrect_answers": ["40 cm³", "60 cm³", "100 cm³", "90 cm³", "50 cm³"]
+  },
+  {
+    "question": "Find the surface area of a rectangular prism with dimensions 7 cm × 3 cm × 2 cm.",
+    "correct_answer": "94 cm²",
+    "incorrect_answers": ["84 cm²", "76 cm²", "102 cm²", "88 cm²", "100 cm²"]
+  },
+  {
+    "question": "A rectangular prism has a volume of 72 cm³. If its height is 3 cm and width is 4 cm, find its length.",
+    "correct_answer": "6 cm",
+    "incorrect_answers": ["4 cm", "3 cm", "2 cm", "5 cm", "8 cm"]
+  },
+  {
+    "question": "Calculate the surface area of a cube with side length 5 cm.",
+    "correct_answer": "150 cm²",
+    "incorrect_answers": ["125 cm²", "100 cm²", "50 cm²", "75 cm²", "175 cm²"]
+  },
+  {
+    "question": "A rectangular prism measures 2 cm × 2 cm × 10 cm. What is its volume?",
+    "correct_answer": "40 cm³",
+    "incorrect_answers": ["20 cm³", "30 cm³", "50 cm³", "60 cm³", "80 cm³"]
+  },
+  {
+    "question": "Find the surface area of a rectangular prism with dimensions 9 cm × 1 cm × 3 cm.",
+    "correct_answer": "66 cm²",
+    "incorrect_answers": ["54 cm²", "72 cm²", "48 cm²", "78 cm²", "60 cm²"]
+  },
+  {
+    "question": "A box has interior dimensions 20 cm × 10 cm × 5 cm. What is its volume in cm³?",
+    "correct_answer": "1000 cm³",
+    "incorrect_answers": ["2000 cm³", "500 cm³", "1500 cm³", "750 cm³", "800 cm³"]
+  },
+  {
+    "question": "Calculate the volume of a rectangular prism of dimensions 0.2 m × 0.3 m × 0.5 m. Express in m³.",
+    "correct_answer": "0.03 m³",
+    "incorrect_answers": ["0.002 m³", "0.5 m³", "0.03 m²", "0.03 L", "0.06 m³"]
+  },
+  {
+    "question": "Find the surface area of a rectangular prism with dimensions 4 cm × 4 cm × 4 cm.",
+    "correct_answer": "96 cm²",
+    "incorrect_answers": ["64 cm²", "48 cm²", "80 cm²", "112 cm²", "72 cm²"]
+  },
+  {
+    "question": "A rectangular prism has volume 360 cm³. If its base is 6 cm × 5 cm, what is its height?",
+    "correct_answer": "12 cm",
+    "incorrect_answers": ["6 cm", "5 cm", "10 cm", "8 cm", "9 cm"]
+  },
+  {
+    "question": "Calculate the surface area of a cube with side length 3 cm.",
+    "correct_answer": "54 cm²",
+    "incorrect_answers": ["36 cm²", "27 cm²", "45 cm²", "60 cm²", "72 cm²"]
+  },
+  {
+    "question": "A rectangular prism measures 8 cm × 2 cm × 2 cm. Find its volume.",
+    "correct_answer": "32 cm³",
+    "incorrect_answers": ["16 cm³", "24 cm³", "40 cm³", "48 cm³", "64 cm³"]
+  },
+  {
+    "question": "Find the surface area of a rectangular prism with dimensions 5 cm × 5 cm × 2 cm.",
+    "correct_answer": "90 cm²",
+    "incorrect_answers": ["70 cm²", "100 cm²", "80 cm²", "110 cm²", "120 cm²"]
+  },
+  {
+    "question": "A cube has volume 125 cm³. What is the length of its side?",
+    "correct_answer": "5 cm",
+    "incorrect_answers": ["4 cm", "6 cm", "3 cm", "10 cm", "7 cm"]
+  },
+  {
+    "question": "Calculate the volume of a triangular prism whose triangular base has base 6 cm and height 4 cm, and prism length is 10 cm.",
+    "correct_answer": "120 cm³",
+    "incorrect_answers": ["48 cm³", "60 cm³", "240 cm³", "80 cm³", "100 cm³"]
+  },
+  {
+    "question": "Find the surface area of a triangular prism with triangle base 4 cm, height 3 cm, and prism length 8 cm. (Include three rectangular faces and two triangular faces.)",
+    "correct_answer": "88 cm²",
+    "incorrect_answers": ["72 cm²", "96 cm²", "104 cm²", "80 cm²", "68 cm²"]
+  },
+  {
+    "question": "A triangular prism has volume 90 cm³. If its base area is 9 cm², what is its length?",
+    "correct_answer": "10 cm",
+    "incorrect_answers": ["9 cm", "5 cm", "15 cm", "12 cm", "8 cm"]
+  },
+  {
+    "question": "Calculate the volume of a triangular prism with triangular base sides 3 cm, 4 cm, right angle between them, and prism length 5 cm.",
+    "correct_answer": "30 cm³",
+    "incorrect_answers": ["10 cm³", "20 cm³", "40 cm³", "25 cm³", "35 cm³"]
+  },
+  {
+    "question": "Find the total surface area of a triangular prism where the triangular face has base 6 cm, height 4 cm, and prism length 12 cm. Side lengths of triangle are 6 cm, 5 cm, and 5 cm.",
+    "correct_answer": "216 cm²",
+    "incorrect_answers": ["192 cm²", "180 cm²", "200 cm²", "224 cm²", "208 cm²"]
+  },
+  {
+    "question": "A triangular prism has height 4 cm and length 6 cm. If its triangular base has sides 3 cm, 4 cm, 5 cm, find its volume.",
+    "correct_answer": "30 cm³",
+    "incorrect_answers": ["20 cm³", "40 cm³", "24 cm³", "36 cm³", "28 cm³"]
+  },
+  {
+    "question": "Calculate the surface area of a triangular prism with equilateral triangular base of side 4 cm and prism length 10 cm.",
+    "correct_answer": "148 cm²",
+    "incorrect_answers": ["120 cm²", "160 cm²", "140 cm²", "132 cm²", "124 cm²"]
+  },
+  {
+    "question": "Find the volume of a triangular prism whose base is equilateral triangle side 6 cm and prism length 5 cm.",
+    "correct_answer": "77.94 cm³",
+    "incorrect_answers": ["54 cm³", "90 cm³", "62.4 cm³", "68 cm³", "100 cm³"]
+  },
+  {
+    "question": "A triangular prism has base area 15 cm² and length 7 cm. What is its volume?",
+    "correct_answer": "105 cm³",
+    "incorrect_answers": ["45 cm³", "75 cm³", "85 cm³", "120 cm³", "98 cm³"]
+  },
+  {
+    "question": "Calculate the surface area of a triangular prism where the triangular base has sides 5 cm, 5 cm, 6 cm, height of triangle 4 cm, and prism length 8 cm.",
+    "correct_answer": "216 cm²",
+    "incorrect_answers": ["200 cm²", "192 cm²", "224 cm²", "228 cm²", "240 cm²"]
+  },
+  {
+    "question": "Find the volume of a triangular prism with triangular cross-section base 8 cm and height 3 cm, and prism length 10 cm.",
+    "correct_answer": "120 cm³",
+    "incorrect_answers": ["84 cm³", "96 cm³", "100 cm³", "140 cm³", "108 cm³"]
+  },
+  {
+    "question": "Calculate the surface area of a triangular prism with base 4 cm, height 3 cm, triangle side lengths 5 cm, and prism length 12 cm.",
+    "correct_answer": "192 cm²",
+    "incorrect_answers": ["168 cm²", "180 cm²", "200 cm²", "176 cm²", "160 cm²"]
+  },
+  {
+    "question": "A triangular prism has base area 20 cm² and length 9 cm. Find its volume.",
+    "correct_answer": "180 cm³",
+    "incorrect_answers": ["120 cm³", "160 cm³", "200 cm³", "100 cm³", "90 cm³"]
+  },
+  {
+    "question": "Find the volume of a cylinder with radius 3 cm and height 10 cm. (Use π = 3.14)",
+    "correct_answer": "282.6 cm³",
+    "incorrect_answers": ["94.2 cm³", "188.4 cm³", "300 cm³", "314 cm³", "212 cm³"]
+  },
+  {
+    "question": "Calculate the total surface area of a cylinder with radius 4 cm and height 7 cm. (Use π = 3.14)",
+    "correct_answer": "351.68 cm²",
+    "incorrect_answers": ["175.84 cm²", "260.48 cm²", "376.99 cm²", "301.44 cm²", "392 cm²"]
+  },
+  {
+    "question": "A cylinder has volume 150π cm³. If its radius is 3 cm, find its height. (Leave in terms of π.)",
+    "correct_answer": "150π / (9π) = 50/3 cm",
+    "incorrect_answers": ["150π / (6π) = 25/1 cm", "150π / (12π) = 12.5 cm", "150π / (3π) = 50 cm", "150 / 9 = 16.67 cm", "150π / (π) = 150 cm"]
+  },
+  {
+    "question": "Find the curved surface area of a cylinder with radius 2 cm and height 10 cm. (Use π = 3.14)",
+    "correct_answer": "125.6 cm²",
+    "incorrect_answers": ["50.24 cm²", "62.8 cm²", "75.36 cm²", "94.2 cm²", "141.3 cm²"]
+  },
+  {
+    "question": "Calculate the volume of a cylinder with diameter 8 cm and height 5 cm. (Use π = 3.14)",
+    "correct_answer": "251.2 cm³",
+    "incorrect_answers": ["100.48 cm³", "201.06 cm³", "157 cm³", "125.6 cm³", "314 cm³"]
+  },
+  {
+    "question": "A cylinder has total surface area 150π cm². If its radius is 5 cm, find its height. (Leave in terms of π.)",
+    "correct_answer": "150π = 2πr(r + h) → 150 = 2 × 5 × (5 + h) → 150 = 10(5 + h) → 15 = 5 + h → h = 10 cm",
+    "incorrect_answers": ["h = 5 cm", "h = 15 cm", "h = 20 cm", "h = 8 cm", "h = 12 cm"]
+  },
+  {
+    "question": "Find the total surface area of a cylinder with radius 7 cm and height 14 cm. (Use π = 22/7.)",
+    "correct_answer": "880 cm²",
+    "incorrect_answers": ["616 cm²", "770 cm²", "924 cm²", "440 cm²", "1008 cm²"]
+  },
+  {
+    "question": "Calculate the volume of a cylinder with radius 1.5 cm and height 6 cm. (Use π = 3.14)",
+    "correct_answer": "42.39 cm³",
+    "incorrect_answers": ["28.26 cm³", "18.84 cm³", "31.41 cm³", "56.52 cm³", "22.14 cm³"]
+  },
+  {
+    "question": "A cylinder’s height is double its radius. If total surface area is 150π cm², what is the radius? (Use π.)",
+    "correct_answer": "r = 3 cm",
+    "incorrect_answers": ["r = 2 cm", "r = 4 cm", "r = 5 cm", "r = 6 cm", "r = 1 cm"]
+  },
+  {
+    "question": "Find the curved surface area of a cylinder with diameter 10 cm and height 8 cm. (Use π = 3.14)",
+    "correct_answer": "251.2 cm²",
+    "incorrect_answers": ["157 cm²", "314 cm²", "201.06 cm²", "188.4 cm²", "125.6 cm²"]
+  },
+  {
+    "question": "Calculate the volume of a cylinder with height 12 cm and volume 144π cm³. Find its radius. (Leave in terms of π.)",
+    "correct_answer": "144π = πr² × 12 → 144 = 12r² → r² = 12 → r = √12 ≈ 3.46 cm",
+    "incorrect_answers": ["r = 2 cm", "r = 4 cm", "r = 6 cm", "r = √6 cm", "r = √9 cm"]
+  },
+  {
+    "question": "Find the volume of a cylinder with radius 2 cm and height 3 cm. (Use π = 3.14)",
+    "correct_answer": "37.68 cm³",
+    "incorrect_answers": ["25.12 cm³", "18.84 cm³", "50.24 cm³", "12.56 cm³", "31.4 cm³"]
+  },
+  {
+    "question": "A cylinder has volume 314 cm³. If its height is 5 cm, find its radius. (Use π = 3.14.)",
+    "correct_answer": "r = √(314 / (π × 5)) = √(314 / 15.7) = √20 = 4.47 cm",
+    "incorrect_answers": ["r = 5 cm", "r = 3 cm", "r = 2 cm", "r = 6 cm", "r = 10 cm"]
+  },
+  {
+    "question": "Calculate the total surface area of a cylinder with diameter 6 cm and height 9 cm. (Use π = 3.14)",
+    "correct_answer": "452.16 cm²",
+    "incorrect_answers": ["339.12 cm²", "407.92 cm²", "565.48 cm²", "282.6 cm²", "678.24 cm²"]
+  },
+  {
+    "question": "Find the volume of a cylinder with radius 0.5 m and height 2 m. (Use π = 3.14)",
+    "correct_answer": "1.57 m³",
+    "incorrect_answers": ["0.785 m³", "2 m³", "3.14 m³", "0.314 m³", "1 m³"]
+  },
+  {
+    "question": "A cylindrical tank has radius 1 m and height 3 m. What is its capacity in liters? (1 m³ = 1000 L, π = 3.14)",
+    "correct_answer": "9420 L",
+    "incorrect_answers": ["3140 L", "6280 L", "4710 L", "7850 L", "10000 L"]
+  },
+  {
+    "question": "Find the curved surface area of a cylinder with radius 2 m and height 4 m. (Use π = 3.14)",
+    "correct_answer": "50.24 m²",
+    "incorrect_answers": ["25.12 m²", "75.36 m²", "100.48 m²", "31.4 m²", "62.8 m²"]
+  },
+  {
+    "question": "Calculate the volume of a cylinder with diameter 2 dm and height 5 dm. (Use π = 3.14)",
+    "correct_answer": "15.7 dm³",
+    "incorrect_answers": ["6.28 dm³", "31.4 dm³", "10 dm³", "12.56 dm³", "20 dm³"]
+  },
+  {
+    "question": "A cylinder has volume 2.4 L. If its radius is 5 cm, find its height in cm. (1 L = 1000 cm³, use π = 3.14)",
+    "correct_answer": "h = (2400) / (π × 25) = 2400 / 78.5 ≈ 30.57 cm",
+    "incorrect_answers": ["h = 20 cm", "h = 15 cm", "h = 40 cm", "h = 25 cm", "h = 10 cm"]
+  },
+  {
+    "question": "Find the total surface area of a cylinder with radius 10 cm and height 5 cm. (Use π = 3.14)",
+    "correct_answer": "471 cm²",
+    "incorrect_answers": ["314 cm²", "628 cm²", "785 cm²", "157 cm²", "942 cm²"]
+  },
+  {
+    "question": "Calculate the volume of a cylinder with radius 4 cm and height 3 cm. (Use π = 3.14)",
+    "correct_answer": "150.72 cm³",
+    "incorrect_answers": ["75.36 cm³", "37.68 cm³", "201.06 cm³", "100.48 cm³", "50.24 cm³"]
+  },
+  {
+    "question": "A cylinder’s height is 9 cm and its volume is 254.34 cm³. Find its radius. (Use π = 3.14)",
+    "correct_answer": "r = √(254.34 / (π × 9)) = √(254.34 / 28.26) = √9 = 3 cm",
+    "incorrect_answers": ["r = 2 cm", "r = 4 cm", "r = 5 cm", "r = 6 cm", "r = 3.5 cm"]
+  },
+  {
+    "question": "Find the curved surface area of a cylinder with diameter 8 cm and height 12 cm. (Use π = 3.14)",
+    "correct_answer": "301.44 cm²",
+    "incorrect_answers": ["150.72 cm²", "376.99 cm²", "188.4 cm²", "225.12 cm²", "251.2 cm²"]
+  },
+  {
+    "question": "Calculate the volume of a cylinder with height 7 cm and volume 616 π cm³. Find its radius. (Leave in terms of π.)",
+    "correct_answer": "616π = πr² × 7 → 616 = 7r² → r² = 88 → r = √88 ≈ 9.38 cm",
+    "incorrect_answers": ["r = 7 cm", "r = 8 cm", "r = 6 cm", "r = 10 cm", "r = 5 cm"]
+  },
+  {
+    "question": "A cylinder has volume 50 cm³ and height 5 cm. Find its radius. (Use π = 3.14)",
+    "correct_answer": "r = √(50 / (π × 5)) = √(50 / 15.7) ≈ √3.185 = 1.785 cm",
+    "incorrect_answers": ["r = 1 cm", "r = 2 cm", "r = 3 cm", "r = 4 cm", "r = 1.5 cm"]
+  },
+  {
+    "question": "Find the total surface area of a cylinder with radius 6 cm and height 10 cm. (Use π = 22/7.)",
+    "correct_answer": "Total SA = 2πr(r + h) = 2 × 22/7 × 6 × (6 + 10) = 2 × 22/7 × 6 × 16 = 2 × 22 × 6 × 16 / 7 = 4224 / 7 = 603.43 cm²",
+    "incorrect_answers": ["452 cm²", "628 cm²", "720 cm²", "550 cm²", "680 cm²"]
   }
 ]
