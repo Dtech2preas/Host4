@@ -1,1 +1,572 @@
-h
+[
+  {
+    "question": "What is the y-intercept of the line y = 2x + 3?",
+    "correct_answer": "3",
+    "incorrect_answers": ["2", "5", "−3", "0", "1"]
+  },
+  {
+    "question": "What is the x-intercept of the line y = 2x + 4?",
+    "correct_answer": "−2",
+    "incorrect_answers": ["2", "0", "4", "−4", "1"]
+  },
+  {
+    "question": "What is the gradient of the line y = −3x + 5?",
+    "correct_answer": "−3",
+    "incorrect_answers": ["3", "5", "−5", "2", "−2"]
+  },
+  {
+    "question": "Find the gradient of the line through the points (0, 2) and (3, 8).",
+    "correct_answer": "2",
+    "incorrect_answers": ["3", "1", "4", "−2", "6"]
+  },
+  {
+    "question": "Which equation represents a line with gradient 4 and y-intercept 1?",
+    "correct_answer": "y = 4x + 1",
+    "incorrect_answers": ["y = x + 4", "y = 4x − 1", "y = 1x + 4", "y = 1x − 4", "y = 4 + x"]
+  },
+  {
+    "question": "Find the gradient of the line through the points (2, 5) and (4, 9).",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "4", "−2", "3", "5"]
+  },
+  {
+    "question": "Write the equation of the line with gradient 5 that passes through (0, −3).",
+    "correct_answer": "y = 5x − 3",
+    "incorrect_answers": ["y = 5x + 3", "y = −5x − 3", "y = x − 3", "y = 3x − 5", "y = 5 − 3x"]
+  },
+  {
+    "question": "What is the x-intercept of the line y = −x + 2?",
+    "correct_answer": "2",
+    "incorrect_answers": ["−2", "0", "1", "−1", "3"]
+  },
+  {
+    "question": "What is the value of y when x = 4 in the equation y = 3x?",
+    "correct_answer": "12",
+    "incorrect_answers": ["7", "11", "15", "8", "9"]
+  },
+  {
+    "question": "Given the table below, which equation matches it?\n\nx | 0 | 1 | 2\ny | 3 | 5 | 7",
+    "correct_answer": "y = 2x + 3",
+    "incorrect_answers": ["y = 3x + 2", "y = x + 3", "y = 2x + 1", "y = x + 2", "y = 3x + 1"]
+  },
+  {
+    "question": "Find the gradient from the table:\n\nx | −1 | 0 | 1\ny | −1 | 1 | 3",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "3", "−2", "0", "4"]
+  },
+  {
+    "question": "What is the value of y when x = 4 in y = 1/2 x − 2?",
+    "correct_answer": "0",
+    "incorrect_answers": ["1", "2", "−1", "−2", "4"]
+  },
+  {
+    "question": "Which point lies on the line y = 2x + 1?",
+    "correct_answer": "(2, 5)",
+    "incorrect_answers": ["(1, 3)", "(2, 3)", "(3, 5)", "(1, 1)", "(0, 1)"]
+  },
+  {
+    "question": "Which point lies on the line y = −x + 3?",
+    "correct_answer": "(1, 2)",
+    "incorrect_answers": ["(2, 2)", "(1, 3)", "(2, 4)", "(0, 3)", "(−1, 2)"]
+  },
+  {
+    "question": "Find the gradient of the line through (1, 4) and (3, 8).",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "4", "−2", "0", "3"]
+  },
+  {
+    "question": "What is the y-intercept of y = −4x + 7?",
+    "correct_answer": "7",
+    "incorrect_answers": ["−7", "4", "−4", "0", "1"]
+  },
+  {
+    "question": "What is the x-intercept of y = x − 5?",
+    "correct_answer": "5",
+    "incorrect_answers": ["−5", "0", "1", "−1", "2"]
+  },
+  {
+    "question": "Which equation matches a line with x-intercept 3 and y-intercept 2?",
+    "correct_answer": "y = −(2/3)x + 2",
+    "incorrect_answers": ["y = (3/2)x + 2", "y = (2/3)x + 3", "y = −3x + 2", "y = x + 2", "y = 2x − 3"]
+  },
+  {
+    "question": "Given the table below, what is the equation?\n\nx | 1 | 2 | 3\ny | 4 | 6 | 8",
+    "correct_answer": "y = 2x + 2",
+    "incorrect_answers": ["y = 2x", "y = 3x + 1", "y = x + 3", "y = 2x − 2", "y = x + 2"]
+  },
+  {
+    "question": "Calculate the gradient of the line joining (0, 0) and (4, 4).",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "2", "4", "−1", "8"]
+  },
+  {
+    "question": "What is the y-intercept of y = 5x?",
+    "correct_answer": "0",
+    "incorrect_answers": ["5", "1", "−5", "−1", "2"]
+  },
+  {
+    "question": "What is the x-intercept of y = 2x + 0?",
+    "correct_answer": "0",
+    "incorrect_answers": ["2", "−2", "1", "−1", "4"]
+  },
+  {
+    "question": "Which equation represents the line with gradient 3 passing through (0, −2)?",
+    "correct_answer": "y = 3x − 2",
+    "incorrect_answers": ["y = 3x + 2", "y = −3x − 2", "y = x − 2", "y = 2x − 3", "y = 3 − 2x"]
+  },
+  {
+    "question": "Find the gradient of the line that passes through (2, 2) and (2, 5).",
+    "correct_answer": "undefined (vertical line)",
+    "incorrect_answers": ["1", "3", "0", "−1", "2"]
+  },
+  {
+    "question": "Find the gradient of the line that passes through (1, 3) and (4, 3).",
+    "correct_answer": "0",
+    "incorrect_answers": ["1", "3", "−3", "undefined", "2"]
+  },
+  {
+    "question": "Which equation matches a line with x-intercept 4 and y-intercept 1?",
+    "correct_answer": "y = −(1/4)x + 1",
+    "incorrect_answers": ["y = (4)x + 1", "y = (1/4)x + 4", "y = −4x + 1", "y = x + 1", "y = x/4 + 1"]
+  },
+  {
+    "question": "Given the table below, what is the equation?\n\nx | 0 | 1 | 2\ny | −1 | 1 | 3",
+    "correct_answer": "y = 2x − 1",
+    "incorrect_answers": ["y = x − 1", "y = 2x + 1", "y = x + 1", "y = 3x − 1", "y = 2x − 2"]
+  },
+  {
+    "question": "What is the gradient of the line y = (1/3)x + 2?",
+    "correct_answer": "1/3",
+    "incorrect_answers": ["3", "2", "−1/3", "−3", "0"]
+  },
+  {
+    "question": "What is the y-intercept of y = −(1/2)x + 4?",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "1/2", "−1/2", "2", "−2"]
+  },
+  {
+    "question": "Find the equation of the line with gradient 0.5 that passes through (0, 1).",
+    "correct_answer": "y = 0.5x + 1",
+    "incorrect_answers": ["y = 2x + 1", "y = x + 1", "y = 0.5x − 1", "y = x/2 − 1", "y = x/2 + 1"]
+  },
+  {
+    "question": "Which point lies on the line y = −2x + 6?",
+    "correct_answer": "(2, 2)",
+    "incorrect_answers": ["(3, 2)", "(2, 3)", "(1, 4)", "(2, 6)", "(0, 6)"]
+  },
+  {
+    "question": "Which point lies on the line y = 3x − 1?",
+    "correct_answer": "(1, 2)",
+    "incorrect_answers": ["(1, 3)", "(2, 2)", "(0, 1)", "(1, −1)", "(2, 5)"]
+  },
+  {
+    "question": "Find the x-intercept of y = (2/3)x − 4.",
+    "correct_answer": "6",
+    "incorrect_answers": ["−6", "4", "−4", "3", "−3"]
+  },
+  {
+    "question": "Find the y-intercept of y = (−3/4)x + 5.",
+    "correct_answer": "5",
+    "incorrect_answers": ["−5", "−3/4", "3/4", "4", "0"]
+  },
+  {
+    "question": "Given the table below, which equation matches it?\n\nx | 1 | 2 | 3\ny | −2 | 0 | 2",
+    "correct_answer": "y = 2x − 4",
+    "incorrect_answers": ["y = x − 3", "y = 2x − 2", "y = 2x", "y = 2x − 1", "y = x − 4"]
+  },
+  {
+    "question": "What is the gradient of the line that passes through (−1, −1) and (2, 5)?",
+    "correct_answer": "2",
+    "incorrect_answers": ["3", "1", "−2", "0", "6"]
+  },
+  {
+    "question": "What is the x-intercept of the line y = 0.5x + 2?",
+    "correct_answer": "−4",
+    "incorrect_answers": ["4", "−2", "2", "−1", "1"]
+  },
+  {
+    "question": "What is the y-intercept of the line y = x − 7?",
+    "correct_answer": "−7",
+    "incorrect_answers": ["7", "1", "0", "−1", "6"]
+  },
+  {
+    "question": "Which equation matches a line with gradient −1 and y-intercept 3?",
+    "correct_answer": "y = −x + 3",
+    "incorrect_answers": ["y = x + 3", "y = −3x + 1", "y = x − 3", "y = −1x − 3", "y = 3x − 1"]
+  },
+  {
+    "question": "Given the table below, which equation matches it?\n\nx | 2 | 4 | 6\ny | 5 | 9 | 13",
+    "correct_answer": "y = 2x + 1",
+    "incorrect_answers": ["y = x + 3", "y = 2x", "y = 2x + 2", "y = 3x − 1", "y = x + 2"]
+  },
+  {
+    "question": "Find the gradient of the line y = 7 − x.",
+    "correct_answer": "−1",
+    "incorrect_answers": ["1", "7", "−7", "0", "2"]
+  },
+  {
+    "question": "Which point lies on the line y = (−1/2)x + 4?",
+    "correct_answer": "(2, 3)",
+    "incorrect_answers": ["(2, 4)", "(2, 2)", "(−2, 5)", "(0, 3)", "(1, 3)"]
+  },
+  {
+    "question": "Find the x-intercept of y = −2x + 8.",
+    "correct_answer": "4",
+    "incorrect_answers": ["−4", "8", "−8", "2", "−2"]
+  },
+  {
+    "question": "Find the y-intercept of y = (3/2)x − 9.",
+    "correct_answer": "−9",
+    "incorrect_answers": ["9", "3/2", "−3/2", "2", "0"]
+  },
+  {
+    "question": "Which equation matches a line through (0, 5) and (2, 1)?",
+    "correct_answer": "y = −2x + 5",
+    "incorrect_answers": ["y = 2x + 5", "y = −x + 5", "y = −2x − 5", "y = (1/2)x + 5", "y = 2 − x"]
+  },
+  {
+    "question": "What is the gradient of the line through (3, 0) and (0, 3)?",
+    "correct_answer": "−1",
+    "incorrect_answers": ["1", "0", "3", "−3", "2"]
+  },
+  {
+    "question": "Which equation matches a line through (1, 0) and (0, 2)?",
+    "correct_answer": "y = −2x + 2",
+    "incorrect_answers": ["y = 2x + 2", "y = x + 2", "y = −x + 2", "y = 2 − x", "y = −x − 2"]
+  },
+  {
+    "question": "Given the table below, which equation matches it?\n\nx | −1 | 0 | 1\ny | 2 | 1 | 0",
+    "correct_answer": "y = −x + 1",
+    "incorrect_answers": ["y = x + 1", "y = −x − 1", "y = x − 1", "y = −1x + 2", "y = x + 2"]
+  },
+  {
+    "question": "Find the gradient of the line y = x + 0.",
+    "correct_answer": "1",
+    "incorrect_answers": ["0", "x", "−1", "2", "−x"]
+  },
+  {
+    "question": "What is the y-intercept of y = 0x + 4?",
+    "correct_answer": "4",
+    "incorrect_answers": ["0", "1", "−4", "x", "2"]
+  },
+  {
+    "question": "Which equation matches a line with x-intercept 0 and y-intercept 6?",
+    "correct_answer": "y = 6",
+    "incorrect_answers": ["x = 6", "y = x + 6", "y = 6x", "y = x/6", "y = 6 − x"]
+  },
+{
+    "question": "Which triangle has all sides equal?",
+    "correct_answer": "Equilateral triangle",
+    "incorrect_answers": ["Isosceles triangle", "Scalene triangle", "Right-angled triangle", "Obtuse triangle", "Acute triangle"]
+  },
+  {
+    "question": "Which triangle has exactly two sides equal?",
+    "correct_answer": "Isosceles triangle",
+    "incorrect_answers": ["Equilateral triangle", "Scalene triangle", "Right-angled triangle", "Isosceles right triangle", "Obtuse triangle"]
+  },
+  {
+    "question": "Which triangle has all sides of different lengths?",
+    "correct_answer": "Scalene triangle",
+    "incorrect_answers": ["Equilateral triangle", "Isosceles triangle", "Right-angled triangle", "Obtuse triangle", "Acute triangle"]
+  },
+  {
+    "question": "Which triangle has one angle equal to 90°?",
+    "correct_answer": "Right-angled triangle",
+    "incorrect_answers": ["Equilateral triangle", "Isosceles triangle", "Scalene triangle", "Obtuse triangle", "Acute triangle"]
+  },
+  {
+    "question": "Which triangle has all angles less than 90°?",
+    "correct_answer": "Acute triangle",
+    "incorrect_answers": ["Obtuse triangle", "Right-angled triangle", "Equilateral triangle", "Isosceles triangle", "Scalene triangle"]
+  },
+  {
+    "question": "Which triangle has one angle greater than 90°?",
+    "correct_answer": "Obtuse triangle",
+    "incorrect_answers": ["Acute triangle", "Right-angled triangle", "Equilateral triangle", "Isosceles triangle", "Scalene triangle"]
+  },
+  {
+    "question": "In an isosceles triangle, which two angles are equal?",
+    "correct_answer": "The base angles",
+    "incorrect_answers": ["The vertex angle and one base angle", "All three angles are equal", "No angles are equal", "The right angles", "The obtuse angles"]
+  },
+  {
+    "question": "What is the sum of the interior angles of any triangle?",
+    "correct_answer": "180°",
+    "incorrect_answers": ["90°", "360°", "270°", "200°", "150°"]
+  },
+  {
+    "question": "If two angles of a triangle are 50° and 60°, what is the third angle?",
+    "correct_answer": "70°",
+    "incorrect_answers": ["60°", "50°", "80°", "90°", "45°"]
+  },
+  {
+    "question": "An exterior angle of a triangle is 120°. If one interior opposite angle is 50°, what is the other opposite interior angle?",
+    "correct_answer": "70°",
+    "incorrect_answers": ["50°", "60°", "30°", "40°", "80°"]
+  },
+  {
+    "question": "Which statement describes the relationship between an exterior angle and the opposite interior angles of a triangle?",
+    "correct_answer": "Exterior angle = sum of the two opposite interior angles",
+    "incorrect_answers": ["Exterior angle = difference of the two opposite interior angles", "Exterior angle = twice one interior angle", "Exterior angle = interior adjacent angle", "Exterior angle = half the sum of interior angles", "Exterior angle = sum of all three interior angles"]
+  },
+  {
+    "question": "Which quadrilateral has two pairs of parallel sides and all angles right angles?",
+    "correct_answer": "Rectangle",
+    "incorrect_answers": ["Parallelogram", "Square", "Rhombus", "Trapezium", "Kite"]
+  },
+  {
+    "question": "Which quadrilateral has all four sides equal and all angles equal?",
+    "correct_answer": "Square",
+    "incorrect_answers": ["Rhombus", "Rectangle", "Parallelogram", "Trapezium", "Kite"]
+  },
+  {
+    "question": "Which quadrilateral has all four sides equal but angles are not necessarily 90°?",
+    "correct_answer": "Rhombus",
+    "incorrect_answers": ["Square", "Rectangle", "Parallelogram", "Trapezium", "Kite"]
+  },
+  {
+    "question": "Which quadrilateral has exactly one pair of parallel sides?",
+    "correct_answer": "Trapezium",
+    "incorrect_answers": ["Parallelogram", "Rectangle", "Square", "Rhombus", "Kite"]
+  },
+  {
+    "question": "Which quadrilateral has two distinct pairs of adjacent equal sides but no parallel sides?",
+    "correct_answer": "Kite",
+    "incorrect_answers": ["Parallelogram", "Rectangle", "Square", "Rhombus", "Trapezium"]
+  },
+  {
+    "question": "Which quadrilateral has both pairs of opposite sides parallel but angles not necessarily right angles?",
+    "correct_answer": "Parallelogram",
+    "incorrect_answers": ["Rectangle", "Square", "Rhombus", "Trapezium", "Kite"]
+  },
+  {
+    "question": "What is the sum of the interior angles of a quadrilateral?",
+    "correct_answer": "360°",
+    "incorrect_answers": ["180°", "270°", "540°", "400°", "320°"]
+  },
+  {
+    "question": "If three angles of a quadrilateral are 90°, 100° and 80°, what is the fourth angle?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["100°", "80°", "90°", "95°", "85°"]
+  },
+  {
+    "question": "In a parallelogram, which angles are equal?",
+    "correct_answer": "Opposite angles",
+    "incorrect_answers": ["Adjacent angles", "All angles", "No angles", "Right angles", "Exterior angles"]
+  },
+  {
+    "question": "In a rectangle, what is the relationship between diagonals?",
+    "correct_answer": "Equal in length and bisect each other",
+    "incorrect_answers": ["Unequal and do not bisect", "Equal but do not bisect", "Unequal but bisect", "Perpendicular and bisect", "Parallel and equal"]
+  },
+  {
+    "question": "In a rhombus, how do the diagonals intersect?",
+    "correct_answer": "At right angles and bisect the angles",
+    "incorrect_answers": ["At right angles but do not bisect angles", "Do not intersect at right angles but bisect the angles", "Do not intersect at right angles and do not bisect angles", "Are parallel", "Are equal in length"]
+  },
+  {
+    "question": "Which quadrilateral has diagonals that are perpendicular but not equal in length?",
+    "correct_answer": "Kite",
+    "incorrect_answers": ["Square", "Rectangle", "Parallelogram", "Rhombus", "Trapezium"]
+  },
+  {
+    "question": "What is the sum of the interior angles of a pentagon?",
+    "correct_answer": "540°",
+    "incorrect_answers": ["360°", "720°", "180°", "450°", "600°"]
+  },
+  {
+    "question": "What is the sum of the interior angles of an n-sided polygon?",
+    "correct_answer": "(n − 2) × 180°",
+    "incorrect_answers": ["n × 180°", "(n + 2) × 180°", "(n − 1) × 180°", "180°/n", "90°n"]
+  },
+  {
+    "question": "In a triangle, which set of conditions is sufficient to prove congruence (SSS)?",
+    "correct_answer": "All three pairs of corresponding sides equal",
+    "incorrect_answers": ["Two pairs of sides and included angle equal", "Two pairs of angles and included side equal", "One side and two angles equal", "One angle and two sides unequal", "Two sides equal but angle not included"]
+  },
+  {
+    "question": "Which set of conditions is sufficient to prove congruence (SAS)?",
+    "correct_answer": "Two pairs of sides and the included angle equal",
+    "incorrect_answers": ["All three pairs of sides equal", "Two pairs of angles and included side equal", "Two pairs of sides but excluded angle", "One side and two angles equal", "One side and one angle equal"]
+  },
+  {
+    "question": "Which set of conditions is sufficient to prove congruence (ASA)?",
+    "correct_answer": "Two pairs of angles and the included side equal",
+    "incorrect_answers": ["All three pairs of sides equal", "Two pairs of sides and included angle equal", "Two pairs of sides but not included angle", "One side and two angles equal but not included side", "One angle and two sides equal"]
+  },
+  {
+    "question": "For right-angled triangles, which condition (RHS) proves congruence?",
+    "correct_answer": "Right angle, hypotenuse and one other side equal",
+    "incorrect_answers": ["Right angle and two angles equal", "Hypotenuse and two acute angles equal", "Two legs equal but not hypotenuse", "Right angle and two angles equal", "Hypotenuse equal only"]
+  },
+  {
+    "question": "Which condition is used to prove similarity of triangles by AA?",
+    "correct_answer": "Two pairs of corresponding angles equal",
+    "incorrect_answers": ["Two pairs of sides equal", "One side and one angle equal", "All three sides proportional", "Hypotenuse and one side equal", "One angle equal only"]
+  },
+  {
+    "question": "Which condition is used to prove similarity by SSS?",
+    "correct_answer": "All three pairs of sides proportional",
+    "incorrect_answers": ["All three pairs of sides equal", "Two pairs of angles equal", "One angle and two sides equal", "Hypotenuse and one side proportional", "Two pairs of sides equal but not proportional"]
+  },
+  {
+    "question": "Which condition is used to prove similarity by SAS?",
+    "correct_answer": "Two pairs of sides proportional and included angle equal",
+    "incorrect_answers": ["Two pairs of sides equal and included angle equal", "Two pairs of angles equal", "All three sides proportional", "Hypotenuse and one side proportional", "One side and two angles equal"]
+  },
+  {
+    "question": "In triangle ABC, AB = 5 cm, AC = 5 cm, and BC = 8 cm. Which type of triangle is it?",
+    "correct_answer": "Isosceles triangle",
+    "incorrect_answers": ["Equilateral triangle", "Scalene triangle", "Right-angled triangle", "Obtuse triangle", "Acute triangle"]
+  },
+  {
+    "question": "If ∠A = 40° and ∠B = 60° in triangle ABC, what is ∠C?",
+    "correct_answer": "80°",
+    "incorrect_answers": ["60°", "40°", "100°", "90°", "70°"]
+  },
+  {
+    "question": "In right triangle ABC, ∠C = 90° and AC = 6 cm, BC = 8 cm. What is AB?",
+    "correct_answer": "10 cm",
+    "incorrect_answers": ["14 cm", "9 cm", "12 cm", "8 cm", "6 cm"]
+  },
+  {
+    "question": "In parallelogram ABCD, ∠A = 70°. What is ∠C?",
+    "correct_answer": "70°",
+    "incorrect_answers": ["110°", "100°", "90°", "80°", "140°"]
+  },
+  {
+    "question": "In rectangle WXYZ, if WX = 5 cm and XY = 3 cm, what is diagonal WY?",
+    "correct_answer": "√34 cm",
+    "incorrect_answers": ["8 cm", "√29 cm", "√25 cm", "√24 cm", "5 cm"]
+  },
+  {
+    "question": "In rhombus PQRS, one angle is 60°. What is the opposite angle?",
+    "correct_answer": "60°",
+    "incorrect_answers": ["120°", "90°", "30°", "100°", "80°"]
+  },
+  {
+    "question": "In a kite, two pairs of adjacent sides are equal. If one pair is 5 cm each and the other is 7 cm each, which quadrilateral is it?",
+    "correct_answer": "Kite",
+    "incorrect_answers": ["Rhombus", "Square", "Rectangle", "Trapezium", "Parallelogram"]
+  },
+  {
+    "question": "In triangle DEF, DF is the exterior angle equal to 120°. If ∠D = 50°, what is ∠E + ∠F?",
+    "correct_answer": "120°",
+    "incorrect_answers": ["50°", "70°", "60°", "90°", "100°"]
+  },
+  {
+    "question": "In ΔGHI, GH = 7 cm, HI = 24 cm, and GI = 25 cm. What kind of triangle is it?",
+    "correct_answer": "Right-angled triangle",
+    "incorrect_answers": ["Equilateral triangle", "Isosceles triangle", "Obtuse triangle", "Acute triangle", "Scalene triangle"]
+  },
+  {
+    "question": "In trapezium ABCD, AB ∥ CD and AB = 6 cm, CD = 10 cm, height = 4 cm. What is the area?",
+    "correct_answer": "32 cm²",
+    "incorrect_answers": ["16 cm²", "40 cm²", "24 cm²", "28 cm²", "36 cm²"]
+  },
+  {
+    "question": "In ΔJKL, ∠J = 30°, ∠K = 60°, ∠L is right angle. What is ∠L?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["30°", "60°", "45°", "180°", "120°"]
+  },
+  {
+    "question": "In parallelogram MNOP, MN = 8 cm and NO = 5 cm. What is the perimeter?",
+    "correct_answer": "26 cm",
+    "incorrect_answers": ["16 cm", "13 cm", "20 cm", "30 cm", "32 cm"]
+  },
+  {
+    "question": "In a square RSTU, RS = 4 cm. What is the length of the diagonal RU?",
+    "correct_answer": "4√2 cm",
+    "incorrect_answers": ["8 cm", "4 cm", "2√2 cm", "2 cm", "4√3 cm"]
+  },
+  {
+    "question": "In ΔABC, AB ∥ DE, BE intersects AC at point F. If ∠BAC = 50° and ∠ACB = 60°, what is ∠BFE (exterior angle)?",
+    "correct_answer": "110°",
+    "incorrect_answers": ["50°", "60°", "90°", "80°", "100°"]
+  },
+  {
+    "question": "In ΔPQR, PQ = 6 cm, PR = 8 cm, QR = 10 cm. Which property holds?",
+    "correct_answer": "Triangle inequality holds (6 + 8 > 10, etc.)",
+    "incorrect_answers": ["Right-angled at P", "Isosceles at PQ", "Equilateral", "Right-angled at Q", "Scalene but invalid"]
+  },
+  {
+    "question": "What is the measure of each interior angle of an equilateral triangle?",
+    "correct_answer": "60°",
+    "incorrect_answers": ["45°", "90°", "30°", "120°", "75°"]
+  },
+  {
+    "question": "In ΔUVW, UV = VW and ∠U = ∠W = 40°. What is ∠V?",
+    "correct_answer": "100°",
+    "incorrect_answers": ["40°", "60°", "80°", "120°", "50°"]
+  },
+  {
+    "question": "A triangle has angles 45°, 45°, and 90°. What type of triangle is it?",
+    "correct_answer": "Isosceles right-angled triangle",
+    "incorrect_answers": ["Scalene triangle", "Equilateral triangle", "Obtuse triangle", "Acute triangle", "Right-angled scalene"]
+  },
+  {
+    "question": "Which pair of triangles are similar if their corresponding angles are equal?",
+    "correct_answer": "AA condition (two angles equal)",
+    "incorrect_answers": ["SSS condition only", "SAS for congruence", "RHS for right triangles", "SSA condition", "None are similar"]
+  },
+  {
+    "question": "In ΔXYZ, XY ∥ UV. If ∠X = 30° and ∠Y = 60°, what is ∠Z?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["30°", "60°", "120°", "45°", "80°"]
+  },
+  {
+    "question": "Which quadrilateral has exactly one pair of adjacent equal sides and one right angle?",
+    "correct_answer": "Kite",
+    "incorrect_answers": ["Parallelogram", "Rectangle", "Square", "Rhombus", "Trapezium"]
+  },
+  {
+    "question": "In parallelogram ABCD, diagonal AC bisects ∠A. If ∠BAC = 40°, what is ∠CAD?",
+    "correct_answer": "40°",
+    "incorrect_answers": ["50°", "60°", "80°", "20°", "90°"]
+  },
+  {
+    "question": "In ΔABC, sides are in ratio 2:3:4. Which is the largest angle?",
+    "correct_answer": "Angle opposite side of length 4",
+    "incorrect_answers": ["Angle opposite side of length 2", "Angle opposite side of length 3", "All angles equal", "Right angle", "No angle is largest"]
+  },
+  {
+    "question": "In quadrilateral ABCD, angles A and C are supplementary. Which quadrilateral could it be?",
+    "correct_answer": "Parallelogram",
+    "incorrect_answers": ["Rectangle", "Square", "Rhombus", "Trapezium", "Kite"]
+  },
+  {
+    "question": "Which construction step is needed to draw an equilateral triangle ABC?",
+    "correct_answer": "Use compass to draw two arcs of equal radius from A and B",
+    "incorrect_answers": ["Draw perpendicular bisector of AB", "Draw angle bisector at A", "Draw a rectangle on AB", "Draw altitude from A to AB", "Draw parallel line to AB"]
+  },
+  {
+    "question": "Which construction step is used to construct the perpendicular bisector of segment AB?",
+    "correct_answer": "Draw two arcs of equal radius centered at A and B and connect their intersection points",
+    "incorrect_answers": ["Draw a line from A perpendicular to AB", "Draw a circle through A and B", "Draw arcs of radius AB from A and B", "Draw a tangent at A", "Draw angle bisector at A"]
+  },
+  {
+    "question": "Which condition ensures two triangles are congruent if they are right-angled?",
+    "correct_answer": "RHS: Right angle, Hypotenuse, and one Side equal",
+    "incorrect_answers": ["SSS: Three sides equal", "ASA: Two angles and included side equal", "SAS: Two sides and included angle equal", "SSA: Two sides and non-included angle equal", "None of these"]
+  },
+  {
+    "question": "Which condition is NOT enough to prove triangle congruence?",
+    "correct_answer": "SSA: Two sides and a non-included angle equal",
+    "incorrect_answers": ["SAS: Two sides and included angle equal", "ASA: Two angles and included side equal", "SSS: Three sides equal", "RHS: Right angle, hypotenuse, side equal", "AAS: Two angles and a side equal"]
+  },
+  {
+    "question": "In ΔABC, AB = AC and ∠B = 50°. What is ∠C?",
+    "correct_answer": "50°",
+    "incorrect_answers": ["80°", "40°", "60°", "70°", "30°"]
+  },
+  {
+    "question": "If two parallelograms have all angles equal, what type are they?",
+    "correct_answer": "Rectangles",
+    "incorrect_answers": ["Rhombi", "Squares", "Kites", "Trapeziums", "General parallelograms"]
+  },
+  {
+    "question": "In ΔABC, if ∠A = 90°, BC = 10 cm and AB = 6 cm, what is AC?",
+    "correct_answer": "8 cm",
+    "incorrect_answers": ["4 cm", "10 cm", "6 cm", "12 cm", "5 cm"]
+  }
+]
