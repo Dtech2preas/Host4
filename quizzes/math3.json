@@ -455,4 +455,118 @@
     "incorrect_answers": ["50°", "70°", "60°", "90°", "100°"]
   },
   {
-    "question": "In ΔGHI, GH = 7 cm, HI = 24 cm, and GI = 25 cm. What kind of triangle is
+    "question": "In ΔGHI, GH = 7 cm, HI = 24 cm, and GI = 25 cm. What kind of triangle is it?",
+    "correct_answer": "Right-angled triangle",
+    "incorrect_answers": ["Equilateral triangle", "Isosceles triangle", "Obtuse triangle", "Acute triangle", "Scalene triangle"]
+  },
+  {
+    "question": "In trapezium ABCD, AB ∥ CD and AB = 6 cm, CD = 10 cm, height = 4 cm. What is the area?",
+    "correct_answer": "32 cm²",
+    "incorrect_answers": ["16 cm²", "40 cm²", "24 cm²", "28 cm²", "36 cm²"]
+  },
+  {
+    "question": "In ΔJKL, ∠J = 30°, ∠K = 60°, ∠L is right angle. What is ∠L?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["30°", "60°", "45°", "180°", "120°"]
+  },
+  {
+    "question": "In parallelogram MNOP, MN = 8 cm and NO = 5 cm. What is the perimeter?",
+    "correct_answer": "26 cm",
+    "incorrect_answers": ["16 cm", "13 cm", "20 cm", "30 cm", "32 cm"]
+  },
+  {
+    "question": "In a square RSTU, RS = 4 cm. What is the length of the diagonal RU?",
+    "correct_answer": "4√2 cm",
+    "incorrect_answers": ["8 cm", "4 cm", "2√2 cm", "2 cm", "4√3 cm"]
+  },
+  {
+    "question": "In ΔABC, AB ∥ DE, BE intersects AC at point F. If ∠BAC = 50° and ∠ACB = 60°, what is ∠BFE (exterior angle)?",
+    "correct_answer": "110°",
+    "incorrect_answers": ["50°", "60°", "90°", "80°", "100°"]
+  },
+  {
+    "question": "In ΔPQR, PQ = 6 cm, PR = 8 cm, QR = 10 cm. Which property holds?",
+    "correct_answer": "Triangle inequality holds (6 + 8 > 10, etc.)",
+    "incorrect_answers": ["Right-angled at P", "Isosceles at PQ", "Equilateral", "Right-angled at Q", "Scalene but invalid"]
+  },
+  {
+    "question": "What is the measure of each interior angle of an equilateral triangle?",
+    "correct_answer": "60°",
+    "incorrect_answers": ["45°", "90°", "30°", "120°", "75°"]
+  },
+  {
+    "question": "In ΔUVW, UV = VW and ∠U = ∠W = 40°. What is ∠V?",
+    "correct_answer": "100°",
+    "incorrect_answers": ["40°", "60°", "80°", "120°", "50°"]
+  },
+  {
+    "question": "A triangle has angles 45°, 45°, and 90°. What type of triangle is it?",
+    "correct_answer": "Isosceles right-angled triangle",
+    "incorrect_answers": ["Scalene triangle", "Equilateral triangle", "Obtuse triangle", "Acute triangle", "Right-angled scalene"]
+  },
+  {
+    "question": "Which pair of triangles are similar if their corresponding angles are equal?",
+    "correct_answer": "AA condition (two angles equal)",
+    "incorrect_answers": ["SSS condition only", "SAS for congruence", "RHS for right triangles", "SSA condition", "None are similar"]
+  },
+  {
+    "question": "In ΔXYZ, XY ∥ UV. If ∠X = 30° and ∠Y = 60°, what is ∠Z?",
+    "correct_answer": "90°",
+    "incorrect_answers": ["30°", "60°", "120°", "45°", "80°"]
+  },
+  {
+    "question": "Which quadrilateral has exactly one pair of adjacent equal sides and one right angle?",
+    "correct_answer": "Kite",
+    "incorrect_answers": ["Parallelogram", "Rectangle", "Square", "Rhombus", "Trapezium"]
+  },
+  {
+    "question": "In parallelogram ABCD, diagonal AC bisects ∠A. If ∠BAC = 40°, what is ∠CAD?",
+    "correct_answer": "40°",
+    "incorrect_answers": ["50°", "60°", "80°", "20°", "90°"]
+  },
+  {
+    "question": "In ΔABC, sides are in ratio 2:3:4. Which is the largest angle?",
+    "correct_answer": "Angle opposite side of length 4",
+    "incorrect_answers": ["Angle opposite side of length 2", "Angle opposite side of length 3", "All angles equal", "Right angle", "No angle is largest"]
+  },
+  {
+    "question": "In quadrilateral ABCD, angles A and C are supplementary. Which quadrilateral could it be?",
+    "correct_answer": "Parallelogram",
+    "incorrect_answers": ["Rectangle", "Square", "Rhombus", "Trapezium", "Kite"]
+  },
+  {
+    "question": "Which construction step is needed to draw an equilateral triangle ABC?",
+    "correct_answer": "Use compass to draw two arcs of equal radius from A and B",
+    "incorrect_answers": ["Draw perpendicular bisector of AB", "Draw angle bisector at A", "Draw a rectangle on AB", "Draw altitude from A to AB", "Draw parallel line to AB"]
+  },
+  {
+    "question": "Which construction step is used to construct the perpendicular bisector of segment AB?",
+    "correct_answer": "Draw two arcs of equal radius centered at A and B and connect their intersection points",
+    "incorrect_answers": ["Draw a line from A perpendicular to AB", "Draw a circle through A and B", "Draw arcs of radius AB from A and B", "Draw a tangent at A", "Draw angle bisector at A"]
+  },
+  {
+    "question": "Which condition ensures two triangles are congruent if they are right-angled?",
+    "correct_answer": "RHS: Right angle, Hypotenuse, and one Side equal",
+    "incorrect_answers": ["SSS: Three sides equal", "ASA: Two angles and included side equal", "SAS: Two sides and included angle equal", "SSA: Two sides and non-included angle equal", "None of these"]
+  },
+  {
+    "question": "Which condition is NOT enough to prove triangle congruence?",
+    "correct_answer": "SSA: Two sides and a non-included angle equal",
+    "incorrect_answers": ["SAS: Two sides and included angle equal", "ASA: Two angles and included side equal", "SSS: Three sides equal", "RHS: Right angle, hypotenuse, side equal", "AAS: Two angles and a side equal"]
+  },
+  {
+    "question": "In ΔABC, AB = AC and ∠B = 50°. What is ∠C?",
+    "correct_answer": "50°",
+    "incorrect_answers": ["80°", "40°", "60°", "70°", "30°"]
+  },
+  {
+    "question": "If two parallelograms have all angles equal, what type are they?",
+    "correct_answer": "Rectangles",
+    "incorrect_answers": ["Rhombi", "Squares", "Kites", "Trapeziums", "General parallelograms"]
+  },
+  {
+    "question": "In ΔABC, if ∠A = 90°, BC = 10 cm and AB = 6 cm, what is AC?",
+    "correct_answer": "8 cm",
+    "incorrect_answers": ["4 cm", "10 cm", "6 cm", "12 cm", "5 cm"]
+  }
+]
