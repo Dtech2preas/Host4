@@ -1,32 +1,202 @@
 [
-    {
-        "question": "What is the primary advantage of using React for frontend development?",
-        "options": [
-            "Built-in database management",
-            "Virtual DOM for efficient updates",
-            "Native mobile app capabilities",
-            "No need for JavaScript knowledge"
-        ],
-        "answer": 1
-    },
-    {
-        "question": "Which CSS feature enables responsive design without media queries?",
-        "options": [
-            "Flexbox",
-            "CSS Grid",
-            "CSS Variables",
-            "All of the above"
-        ],
-        "answer": 3
-    },
-    {
-        "question": "What does API stand for in web development?",
-        "options": [
-            "Application Programming Interface",
-            "Automated Program Integration",
-            "Advanced Programming Instruction",
-            "Application Process Integration"
-        ],
-        "answer": 0
-    }
+  {
+    "question": "What part of the brain controls voluntary movements?",
+    "options": ["Cerebellum", "Medulla", "Cerebrum", "Hypothalamus"],
+    "answer": 2
+  },
+  {
+    "question": "Which country has the largest population in the world?",
+    "options": ["India", "China", "USA", "Indonesia"],
+    "answer": 0
+  },
+  {
+    "question": "What is the main purpose of red blood cells?",
+    "options": ["Fight infection", "Clot blood", "Carry oxygen", "Control temperature"],
+    "answer": 2
+  },
+  {
+    "question": "Which law explains why we need to wear seatbelts in a moving car?",
+    "options": ["Newton's First Law", "Newton's Second Law", "Law of Thermodynamics", "Archimedes' Principle"],
+    "answer": 0
+  },
+  {
+    "question": "What is the capital city of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": 2
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "options": ["P", "Pt", "Po", "K"],
+    "answer": 3
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": 1
+  },
+  {
+    "question": "How many chromosomes are in a typical human cell?",
+    "options": ["23", "46", "22", "44"],
+    "answer": 1
+  },
+  {
+    "question": "Which process converts solar energy into chemical energy in plants?",
+    "options": ["Respiration", "Glycolysis", "Photosynthesis", "Fermentation"],
+    "answer": 2
+  },
+  {
+    "question": "In history, what was the Cold War mainly about?",
+    "options": ["Trade wars", "Territory disputes", "Ideological tension", "Oil resources"],
+    "answer": 2
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "options": ["0°C", "32°C", "100°C", "-1°C"],
+    "answer": 0
+  },
+  {
+    "question": "Which device is used to measure temperature?",
+    "options": ["Barometer", "Thermometer", "Hygrometer", "Ammeter"],
+    "answer": 1
+  },
+  {
+    "question": "Which ocean lies between Africa and Australia?",
+    "options": ["Atlantic", "Arctic", "Indian", "Pacific"],
+    "answer": 2
+  },
+  {
+    "question": "Which programming language is known for web development?",
+    "options": ["Python", "C++", "Java", "JavaScript"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is NOT a renewable source of energy?",
+    "options": ["Solar", "Wind", "Coal", "Hydropower"],
+    "answer": 2
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "answer": 1
+  },
+  {
+    "question": "Which number system uses only 0 and 1?",
+    "options": ["Decimal", "Octal", "Binary", "Hexadecimal"],
+    "answer": 2
+  },
+  {
+    "question": "Which country invented paper?",
+    "options": ["Greece", "India", "China", "Egypt"],
+    "answer": 2
+  },
+  {
+    "question": "Which vitamin helps in calcium absorption?",
+    "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+    "answer": 3
+  },
+  {
+    "question": "What is the main function of white blood cells?",
+    "options": ["Transport oxygen", "Fight infection", "Regulate temperature", "Digest food"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a programming loop?",
+    "options": ["if", "while", "print", "def"],
+    "answer": 1
+  },
+  {
+    "question": "Which instrument is used to see very small organisms?",
+    "options": ["Telescope", "Periscope", "Microscope", "Barometer"],
+    "answer": 2
+  },
+  {
+    "question": "What is the process of water changing into vapour called?",
+    "options": ["Condensation", "Evaporation", "Precipitation", "Sublimation"],
+    "answer": 1
+  },
+  {
+    "question": "Who discovered the law of gravity?",
+    "options": ["Albert Einstein", "Isaac Newton", "Galileo", "Stephen Hawking"],
+    "answer": 1
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "options": ["90°C", "95°C", "100°C", "110°C"],
+    "answer": 2
+  },
+  {
+    "question": "Which continent has the most countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "answer": 2
+  },
+  {
+    "question": "Which element is liquid at room temperature?",
+    "options": ["Mercury", "Iron", "Aluminium", "Sodium"],
+    "answer": 0
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["11", "12", "13", "14"],
+    "answer": 1
+  },
+  {
+    "question": "Which animal is known for changing its color to blend into surroundings?",
+    "options": ["Frog", "Lizard", "Chameleon", "Gecko"],
+    "answer": 2
+  },
+  {
+    "question": "Which country is famous for the Great Wall?",
+    "options": ["India", "China", "Japan", "South Korea"],
+    "answer": 1
+  },
+  {
+    "question": "Which gas do living beings exhale?",
+    "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+    "answer": 2
+  },
+  {
+    "question": "What is the capital city of Germany?",
+    "options": ["Munich", "Frankfurt", "Berlin", "Hamburg"],
+    "answer": 2
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "options": ["Sun's rotation", "Wind", "Earth's core", "Moon's gravity"],
+    "answer": 3
+  },
+  {
+    "question": "What is the name of the largest bone in the human body?",
+    "options": ["Femur", "Humerus", "Skull", "Tibia"],
+    "answer": 0
+  },
+  {
+    "question": "Which device is used to measure pressure?",
+    "options": ["Thermometer", "Barometer", "Altimeter", "Voltmeter"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest organ in the human body?",
+    "options": ["Liver", "Skin", "Heart", "Lungs"],
+    "answer": 1
+  },
+  {
+    "question": "Which metal is liquid at room temperature and used in thermometers?",
+    "options": ["Silver", "Lead", "Mercury", "Zinc"],
+    "answer": 2
+  },
+  {
+    "question": "What is the closest planet to the sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "answer": 2
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 1
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": ["Salt", "Acid", "Water", "Air"],
+    "answer": 2
+  }
 ]
