@@ -2,32 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Force Download Google Drive File</title>
+  <title>Download File</title>
 </head>
 <body>
-  <h2>Force Download File</h2>
-  <button id="downloadBtn" 
-          style="padding: 12px 24px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+  <h2>Download your file</h2>
+  <a href="https://drive.google.com/uc?export=download&id=1D4iQWziHfzJyHB7AWqgyx2J1RbgO812d" 
+     download 
+     style="padding: 12px 24px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
     Download Now
-  </button>
-
-  <script>
-    document.getElementById('downloadBtn').addEventListener('click', function() {
-      const url = 'https://drive.google.com/uc?export=download&id=1D4iQWziHfzJyHB7AWqgyx2J1RbgO812d';
-      fetch(url)
-        .then(response => response.blob())
-        .then(blob => {
-          const downloadUrl = window.URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = downloadUrl;
-          a.download = 'filename.ext'; // Put your file name and extension here
-          document.body.appendChild(a);
-          a.click();
-          a.remove();
-          window.URL.revokeObjectURL(downloadUrl);
-        })
-        .catch(() => alert('Failed to download file!'));
-    });
-  </script>
+  </a>
 </body>
 </html>
