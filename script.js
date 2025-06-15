@@ -19,7 +19,6 @@ const videoModal = document.getElementById('video-modal');
 const videoEmbed = document.getElementById('video-embed');
 const closeBtn = document.querySelector('.close-btn');
 const restartBtn = document.getElementById('restart-btn');
-const countdownDisplay = document.createElement('div'); // For countdown display
 
 // App state
 let currentStage = 1;
@@ -28,24 +27,9 @@ let quotes = [];
 let videos = [];
 let dayIndex = 0;
 let firstVisitDate = null;
-let countdownInterval = null;
 
 // Initialize the app
 async function init() {
-    // Add countdown display to stage1
-    countdownDisplay.id = 'countdown-display';
-    countdownDisplay.style.display = 'none';
-    stage1.appendChild(countdownDisplay);
-    
-    // Check for active countdown in localStorage
-    const countdownEnd = localStorage.getItem('countdownEnd');
-    if (countdownEnd && Date.now() < parseInt(countdownEnd)) {
-        startCountdown(parseInt(countdownEnd));
-        return;
-    } else if (countdownEnd) {
-        localStorage.removeItem('countdownEnd');
-    }
-    
     // Load first visit date from localStorage or set it
     const storedDate = localStorage.getItem('firstVisitDate');
     if (!storedDate) {
@@ -84,30 +68,6 @@ async function init() {
         console.error('Error loading data:', error);
         quizQuestion.textContent = 'Error loading content. Please try again later.';
     }
-}
-
-// Start countdown
-function startCountdown(endTime) {
-    countdownDisplay.style.display = 'block';
-    countdownDisplay.textContent = 'Incorrect, try again in 15 seconds';
-    quizOptions.style.display = 'none';
-    
-    // Open the ad in a new tab
-    window.open('https://cafewarriors.com/spymr251ew?key=ce76edf7e5c6e4907177e712dc143365', '_blank');
-    
-    countdownInterval = setInterval(() => {
-        const now = Date.now();
-        const remaining = Math.max(0, Math.ceil((endTime - now) / 1000));
-        
-        if (remaining <= 0) {
-            clearInterval(countdownInterval);
-            countdownDisplay.style.display = 'none';
-            quizOptions.style.display = 'block';
-            localStorage.removeItem('countdownEnd');
-        } else {
-            countdownDisplay.textContent = `Incorrect, try again in ${remaining} seconds`;
-        }
-    }, 1000);
 }
 
 // Stage 1: Quiz
@@ -219,24 +179,22 @@ quizForm.addEventListener('submit', function(e) {
     // Visual feedback
     if (isCorrect) {
         document.body.classList.add('correct');
-        setTimeout(() => document.body.classList.remove('correct'), 500);
-        
-        // Transition to stage 2 after delay
         setTimeout(() => {
+            document.body.classList.remove('correct');
+            // Only proceed to next stage if answer is correct
             stage1.style.animation = 'slideOutLeft 0.5s forwards';
             setTimeout(() => {
                 stage1.style.animation = '';
                 loadStage2();
             }, 500);
-        }, 2000);
+        }, 500);
     } else {
         document.body.classList.add('incorrect');
-        setTimeout(() => document.body.classList.remove('incorrect'), 500);
-        
-        // Start 15-second countdown
-        const countdownEnd = Date.now() + 15000;
-        localStorage.setItem('countdownEnd', countdownEnd.toString());
-        startCountdown(countdownEnd);
+        setTimeout(() => {
+            document.body.classList.remove('incorrect');
+            // Open ad URL when answer is incorrect
+            window.open('https://cafewarriors.com/spymr251ew?key=ce76edf7e5c6e4907177e712dc143365', '_blank');
+        }, 500);
     }
 });
 
