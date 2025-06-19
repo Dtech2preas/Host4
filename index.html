@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Download File</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      padding: 1rem;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    .clusterize-scroll {
+      max-height: 80vh;
+      overflow-y: auto;
+      border: 1px solid #444;
+      padding: 0.5rem;
+    }
+    a {
+      color: #00adee;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h2>Download your file</h2>
-  <a href="https://drive.google.com/uc?export=download&id=1D4iQWziHfzJyHB7AWqgyx2J1RbgO812d" 
-     download 
-     style="padding: 12px 24px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    Download Now
-  </a>
+  <h1>Video Link Library</h1>
+  <input type="text" id="search" placeholder="Search for a title...">
+  <div id="scrollArea" class="clusterize-scroll">
+    <ul id="contentArea" class="clusterize-content"></ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/clusterize.js@0.18.1/clusterize.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
