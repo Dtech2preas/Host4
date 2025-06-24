@@ -1,45 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Video Library</title>
+<!-- SEO & Metadata for Google (Preasx24) -->
+<title>Preasx24 | Founder of DTECH | South African Student Tech Innovator</title>
+<meta name="description" content="Preasx24 is a Diploma in Management student at Nelson Mandela University and a self-taught full-stack web developer, UX/UI designer, and tech innovator. As founder of DTECH, he builds marketplaces, ed-tech hubs, CI/CD pipelines, animated brand experiences, and free web sponsorship programs to empower youth." />
+<meta name="keywords" content="Preasx24, DTECH, student entrepreneur, web developer, UX/UI designer, Nelson Mandela University, Web Workers, LocalForage, GitHub Actions, HTML/CSS/JS, digital innovation, free website sponsorship, second-hand marketplace, past-paper platform, APS calculator" />
+<meta name="author" content="Preasx24" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://preasx24.co.za/" />
+
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="Preasx24 | Student Tech Founder & Innovator" />
+<meta property="og:description" content="Meet Preasx24—a Management Diploma student and self-taught developer behind DTECH’s Services, Info, HQ, General & Uni platforms—empowering South African youth through technology." />
+<meta property="og:image" content="https://preasx24.co.za/images/preasx24.jpg" />
+<meta property="og:url" content="https://preasx24.co.za" />
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="DTECH Hub" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Who is Preasx24?" />
+<meta name="twitter:description" content="Discover Preasx24—NMU Management student, full-stack web dev, UX/UI designer, and founder of DTECH’s multi-branch digital ecosystem for student empowerment." />
+<meta name="twitter:image" content="https://preasx24.co.za/images/preasx24.jpg" />
+<meta name="twitter:site" content="@preasx24" />
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://preasx24.co.za/#person",
+      "name": "Preasx24",
+      "url": "https://preasx24.co.za",
+      "jobTitle": "Founder & CEO",
+      "worksFor": { "@type": "Organization", "@id": "https://www.dtech-services.co.za/#org" },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Nelson Mandela University",
+        "description": "Diploma in Management"
+      },
+      "knowsAbout": [
+        "Full-stack Web Development (HTML, CSS, JavaScript)",
+        "Client-side Performance Optimization (Web Workers, LocalForage)",
+        "Static Site Architectures & JSON Search",
+        "Android CI/CD Pipelines with GitHub Actions",
+        "UX/UI Design & CSS/SVG Animations",
+        "SEO & Metadata Strategy",
+        "EdTech Platform Design",
+        "E-commerce & Marketplace Business Models",
+        "Data Structures in JavaScript",
+        "Static Hosting on GitHub Pages"
+      ],
+      "description": "A self-taught coder and Diploma in Management student who built DTECH: five interconnected platforms delivering rentals & resale, student Q&A, innovation tools, study resources, and university eligibility estimators—all aimed at youth empowerment.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Port Elizabeth",
+        "addressRegion": "Eastern Cape",
+        "addressCountry": "South Africa"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "mailto: dtech2services@gmail.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "whatsapp",
+          "telephone": "+27-67-001-5423"
+        }
+      ],
+      "sameAs": [
+        "https://about.me/preasx24",
+        "https://www.instagram.com/preasx24",
+        "https://www.linkedin.com/in/d-tech-services-722b19363",
+        "https://facebook.com/D-techDestroyers-legion--100054886954297"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dtech-services.co.za/#org",
+      "name": "DTECH Services",
+      "url": "https://www.dtech-services.co.za",
+      "logo": "https://preasx24.co.za/images/dtech-logo.png",
+      "description": "Student-focused second-hand marketplace and rental platform with full KYC for new users and streamlined login for returning customers."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://info.dtech24.co.za/#org",
+      "name": "DTECH Info",
+      "url": "https://info.dtech24.co.za",
+      "description": "NMU student guides and Q&A hub covering orientation, NSFAS, accommodation, course changes, application outcomes, and textbook purchases."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dtech24.co.za/#org",
+      "name": "DTECH HQ",
+      "url": "https://www.dtech24.co.za",
+      "description": "Innovation hub offering bots, file sharing, tutorials, FAQs, giveaways, and host-finder utilities."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://preasx24.co.za/#org",
+      "name": "DTECH General",
+      "url": "https://preasx24.co.za",
+      "description": "Comprehensive study resource portal with past papers, videos, audio guides, quizzes, SBA/PAT tutorials, NSFAS info, and live visitor metrics."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://uni.dtech24.co.za/#org",
+      "name": "DTECH Uni Eligibility",
+      "url": "https://uni.dtech24.co.za",
+      "description": "South African university APS calculator and acceptance-chance estimator for UL, UJ, UP, WITS, UCT, and more."
+    }
+  ]
+}
+</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Grade 9 Quizzes | D-TECH Services</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     body {
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: #fff;
-      padding: 1rem;
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(ellipse at top, #0d0d0d, #000);
+      color: #ffffff;
+      overflow-x: hidden;
     }
-    input[type="text"] {
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      padding: 10px 20px;
+      box-shadow: 0 0 20px #2196f3;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header .left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .logo {
+      height: 45px;
+      filter: drop-shadow(0 0 8px #00e5ff);
+    }
+    .slogan {
+      font-size: 14px;
+      font-weight: 500;
+      color: #cfd8dc;
+      text-shadow: 0 0 4px #00e5ff;
+    }
+    main {
+      max-width: 600px;
+      margin: 60px auto 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 0 20px;
+    }
+    .subject-button {
+      background: linear-gradient(135deg, #00e5ff, #1e88e5);
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow: 0 0 15px #00e5ff;
+      text-align: center;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.3s;
+      user-select: none;
+    }
+    .subject-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #00e5ff;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 10px;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #cfd8dc;
+      font-size: 13px;
+      box-shadow: 0 -5px 20px #2196f3;
+      position: fixed;
       width: 100%;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
-      font-size: 1rem;
+      bottom: 0;
+      user-select: none;
     }
-    .clusterize-scroll {
-      max-height: 80vh;
-      overflow-y: auto;
-      border: 1px solid #444;
-      padding: 0.5rem;
-    }
-    a {
-      color: #00adee;
+    footer a {
+      color: #00e5ff;
       text-decoration: none;
     }
-    a:hover {
+    footer a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Video Link Library</h1>
-  <input type="text" id="search" placeholder="Search for a title...">
-  <div id="scrollArea" class="clusterize-scroll">
-    <ul id="contentArea" class="clusterize-content"></ul>
-  </div>
+  <header>
+    <div class="left">
+      <img src="dtech-logo.png" alt="D-TECH Logo" class="logo" />
+      <span class="slogan">Empowering the youth through digital innovation</span>
+    </div>
+  </header>
 
-  <script src="https://cdn.jsdelivr.net/npm/clusterize.js@0.18.1/clusterize.min.js"></script>
-  <script src="main.js"></script>
+  <main>
+    <a href="math.html" class="subject-button">Mathematics</a>
+    <a href="science.html" class="subject-button">Science</a>
+    <a href="english.html" class="subject-button">English</a>
+    <a href="social.html" class="subject-button">Social Science</a>
+    <a href="technology.html" class="subject-button">Technology</a>
+    <!-- Add more subjects as needed -->
+  </main>
+
+  <footer>
+    &copy; 2025 D-TECH Services. All rights reserved. | <a href="contact.html">Contact Us</a>
+  </footer>
 </body>
-</html>
+    </html>
