@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#000000">
 
     <!-- WebView Container -->
     <FrameLayout
@@ -15,49 +16,105 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:background="#E0E0E0"
-        android:gravity="center_vertical">
+        android:orientation="vertical"
+        android:background="#000000"
+        android:padding="4dp">
 
-        <Button
-            android:id="@+id/btn_back"
-            android:layout_width="wrap_content"
+        <!-- Controls Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/back"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
 
-        <Button
-            android:id="@+id/btn_forward"
-            android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:backgroundTint="#000000"
+                android:textColor="#00FFFF"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forward"
+                android:backgroundTint="#000000"
+                android:textColor="#00FFFF"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <EditText
+                android:id="@+id/et_url"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="https://..."
+                android:inputType="textUri"
+                android:imeOptions="actionGo"
+                android:singleLine="true"
+                android:background="#333333"
+                android:textColor="#00FFFF"
+                android:textColorHint="#888888"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btn_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go"
+                android:backgroundTint="#000000"
+                android:textColor="#00FFFF"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+
+        <!-- Tools Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/forward"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="4dp">
 
-        <EditText
-            android:id="@+id/et_url"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="https://..."
-            android:inputType="textUri"
-            android:imeOptions="actionGo"
-            android:singleLine="true" />
+            <Button
+                android:id="@+id/btn_tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tabs"
+                android:backgroundTint="#000000"
+                android:textColor="#00FFFF"
+                style="?android:attr/buttonBarButtonStyle" />
 
-        <Button
-            android:id="@+id/btn_go"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/go"
-            style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                android:id="@+id/btn_desktop_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PC Mode"
+                android:backgroundTint="#000000"
+                android:textColor="#00FFFF"
+                style="?android:attr/buttonBarButtonStyle" />
 
-        <Button
-            android:id="@+id/btn_tabs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tabs"
-            style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                android:id="@+id/btn_download_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download Video"
+                android:visibility="gone"
+                android:backgroundTint="#000000"
+                android:textColor="#00FFFF"
+                style="?android:attr/buttonBarButtonStyle" />
 
+            <TextView
+                android:id="@+id/tv_ads_blocked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Ads Blocked: 0"
+                android:textColor="#00FFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
