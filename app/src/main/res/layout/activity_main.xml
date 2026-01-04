@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- WebView Container -->
+    <FrameLayout
+        android:id="@+id/webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#E0E0E0"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forward"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="https://..."
+            android:inputType="textUri"
+            android:imeOptions="actionGo"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tabs"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
