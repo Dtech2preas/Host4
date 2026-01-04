@@ -68,7 +68,7 @@ class TabManager(
 
             webViewClient = object : WebViewClient() {
                 override fun shouldInterceptRequest(view: WebView?, request: WebResourceRequest?): WebResourceResponse? {
-                    val url = request?.url?.toString() ?: return super.shouldInterceptRequest(view, request)
+                    val url = request?.url?.toString() ?: return null
 
                     if (AdBlocker.shouldBlock(url)) {
                         onAdBlocked()
@@ -79,12 +79,12 @@ class TabManager(
                         onVideoDetected(url)
                     }
 
-                    return super.shouldInterceptRequest(view, request)
+                    return null
                 }
 
                 // Deprecated overload for older APIs if needed, though minSdk 24 supports the above
                 override fun shouldInterceptRequest(view: WebView?, url: String?): WebResourceResponse? {
-                    if (url == null) return super.shouldInterceptRequest(view, url)
+                    if (url == null) return null
 
                     if (AdBlocker.shouldBlock(url)) {
                         onAdBlocked()
@@ -95,7 +95,7 @@ class TabManager(
                         onVideoDetected(url)
                     }
 
-                    return super.shouldInterceptRequest(view, url)
+                    return null
                 }
 
                 override fun onPageFinished(view: WebView?, url: String?) {
