@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betway - Login</title>
+    <style>
+        /* Font Imports */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+            --bw-green: #00A651; /* Standard Betway Green */
+            --bw-black: #000000;
+            --bw-dark-grey: #1a1a1a;
+            --bw-input-bg: #2b2b2b;
+            --bw-border: #3d3d3d;
+            --bw-text-grey: #b3b3b3;
+            --bw-white: #ffffff;
+            --bw-success: #4cd137;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bw-black);
+            color: var(--bw-white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Betway Logo Styling */
+        .betway-logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            font-style: italic;
+            letter-spacing: -1px;
+            color: var(--bw-white);
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        
+        .betway-logo span {
+            color: var(--bw-white); 
+        }
+
+        /* Form Styling */
+        .login-form {
+            background-color: var(--bw-dark-grey);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--bw-border);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            color: var(--bw-text-grey);
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--bw-input-bg);
+            border: 1px solid var(--bw-border);
+            border-radius: 4px;
+            color: var(--bw-white);
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--bw-green);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: var(--bw-green);
+            color: var(--bw-white);
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover {
+            background-color: #008f45;
+        }
+
+        .forgot-password {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+
+        .forgot-password a {
+            color: var(--bw-green);
+            text-decoration: none;
+        }
+        
+        .divider {
+            margin: 20px 0;
+            border-top: 1px solid var(--bw-border);
+        }
+
+        .register-text {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--bw-text-grey);
+        }
+        
+        .register-text a {
+            color: var(--bw-white);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        /* Hidden by default until login */
+        #code-view {
+            display: none;
+            text-align: center;
+            background-color: var(--bw-dark-grey);
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid var(--bw-border);
+        }
+
+        .code-display {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--bw-green);
+            margin: 20px 0;
+            letter-spacing: 2px;
+            word-break: break-all;
+            background: rgba(0, 166, 81, 0.1); /* Subtle green bg */
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px dashed var(--bw-green);
+        }
+
+        .copy-btn {
+            background-color: transparent;
+            border: 1px solid var(--bw-white);
+            color: var(--bw-white);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .copy-btn:hover {
+            background-color: var(--bw-white);
+            color: var(--bw-black);
+        }
+        
+        .success-icon {
+            font-size: 3rem;
+            color: var(--bw-green);
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header">
+            <div class="betway-logo">betway</div>
+        </div>
+
+        <!-- Login View -->
+        <div id="login-view" class="login-form">
+            <h2 style="margin-bottom: 20px; font-weight: 600;">Login</h2>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label class="form-label" for="phone">Mobile Number</label>
+                    <div style="display: flex;">
+                        <span style="padding: 12px; background: var(--bw-input-bg); border: 1px solid var(--bw-border); border-right: none; border-radius: 4px 0 0 4px; color: var(--bw-text-grey);">+27</span>
+                        <input type="tel" id="phone" class="form-input" style="border-radius: 0 4px 4px 0;" placeholder="Enter mobile number" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" class="form-input" placeholder="Password" required>
+                </div>
+
+                <button type="submit" class="login-btn">Login</button>
+            
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="register-text">
+                    Don't have an account? <a href="#">Sign Up</a>
+                </div>
+            </form>
+        </div>
+
+        <!-- Betting Code View (Initially Hidden) -->
+        <div id="code-view">
+            <div class="success-icon">✓</div>
+            <h2 style="margin-bottom: 10px;">Login Successful</h2>
+            <p style="color: var(--bw-text-grey); font-size: 0.9rem;">Here is your exclusive betting code:</p>
+            
+            <div id="generated-code" class="code-display">
+                Loading...
+            </div>
+
+            <button id="copyBtn" class="copy-btn">Copy Code</button>
+            
+            <div style="margin-top: 20px;">
+                <button onclick="location.reload()" style="background: none; border: none; color: var(--bw-text-grey); cursor: pointer; text-decoration: underline;">Logout</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const loginForm = document.getElementById('loginForm');
+            const loginView = document.getElementById('login-view');
+            const codeView = document.getElementById('code-view');
+            const generatedCodeDisplay = document.getElementById('generated-code');
+            const copyBtn = document.getElementById('copyBtn');
+
+            // Character set for random generation (Uppercase letters and Numbers)
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault(); // Prevent actual form submission
+
+                // Simulate processing delay (optional, but nice for UX)
+                const loginBtn = loginForm.querySelector('.login-btn');
+                const originalBtnText = loginBtn.textContent;
+                loginBtn.textContent = 'Processing...';
+                loginBtn.disabled = true;
+
+                setTimeout(() => {
+                    // Generate Code
+                    let randomPart = '';
+                    for (let i = 0; i < 8; i++) {
+                        randomPart += chars.charAt(Math.floor(Math.random() * chars.length));
+                    }
+                    const finalCode = 'BW' + randomPart;
+
+                    // Update Display
+                    generatedCodeDisplay.textContent = finalCode;
+
+                    // Switch Views
+                    loginView.style.display = 'none';
+                    codeView.style.display = 'block';
+
+                    // Reset button (in case they go back/reload)
+                    loginBtn.textContent = originalBtnText;
+                    loginBtn.disabled = false;
+                }, 1000); // 1 second delay
+            });
+
+            // Copy to Clipboard functionality
+            copyBtn.addEventListener('click', () => {
+                const code = generatedCodeDisplay.textContent;
+                navigator.clipboard.writeText(code).then(() => {
+                    const originalText = copyBtn.textContent;
+                    copyBtn.textContent = 'Copied!';
+                    copyBtn.style.backgroundColor = 'var(--bw-white)';
+                    copyBtn.style.color = 'var(--bw-black)';
+                    
+                    setTimeout(() => {
+                        copyBtn.textContent = originalText;
+                        copyBtn.style.backgroundColor = 'transparent';
+                        copyBtn.style.color = 'var(--bw-white)';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy: ', err);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
